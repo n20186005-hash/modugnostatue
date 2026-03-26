@@ -38,7 +38,42 @@
         "À quelques pas du centre historique et de la célèbre plage Lama Monachile",
         "Hommage au chanteuse de « Volare », patrimoine musical italien"
       ]
+    },
+    "keywords": {
+      "title": "Mots-clés associés",
+      "items": [
+        "Monumento a Domenico Modugno",
+        "Modugno Statue",
+        "The Volare Statue",
+        "Polignano a Mare",
+        "《Volare》"
+      ]
     }
+  },
+  "knowledge": {
+    "title": "Explorez le point de repère culturel de Polignano",
+    "sections": [
+      {
+        "id": "monumento",
+        "title": "Monumento a Domenico Modugno",
+        "content": "Créé par le sculpteur Hermann Mejer et inauguré le 31 mai 2009, ce monument en bronze est plus qu'une simple œuvre d'art ; c'est un hommage des habitants à un grand artiste. D'une hauteur d'environ 3 mètres, la statue capture de manière saisissante un moment de la performance passionnée de Domenico Modugno sur scène."
+      },
+      {
+        "id": "statue",
+        "title": "Modugno Statue & The Volare Statue",
+        "content": "Parmi les touristes internationaux, elle est souvent appelée la « Modugno Statue » ou « The Volare Statue ». Face à la mer, les bras grands ouverts, la statue symbolise une étreinte du monde et un désir de voler librement, illustrant parfaitement l'ambiance de la chanson qui a rendu le monde fou."
+      },
+      {
+        "id": "polignano",
+        "title": "Polignano a Mare",
+        "content": "Polignano a Mare est une perle de la région des Pouilles en Italie, célèbre pour ses maisons blanches construites sur des falaises calcaires et la mer Adriatique cristalline. En tant que lieu de naissance de Domenico Modugno, cette ville lui a donné une inspiration sans fin, et aujourd'hui cette statue est devenue la carte de visite culturelle la plus brillante de la ville."
+      },
+      {
+        "id": "volare",
+        "title": "La légende de « Volare »",
+        "content": "« Volare » (initialement intitulée « Nel blu, dipinto di blu »), sortie en 1958, a balayé le monde et remporté deux Grammy Awards. La chanson n'est pas seulement un jalon dans l'histoire de la musique italienne, mais aussi un symbole mondial de l'optimisme, de la romance et de la passion italiens. Debout devant la statue avec la brise marine qui souffle, on peut presque entendre résonner cette mélodie familière."
+      }
+    ]
   },
   "gallery": {
     "title": "Galerie Photos",

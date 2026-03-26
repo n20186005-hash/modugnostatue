@@ -38,7 +38,42 @@
         "A pochi passi dal centro storico e dalla famosa Lama Monachile",
         "Omaggio al cantante di «Volare», patrimonio musicale italiano"
       ]
+    },
+    "keywords": {
+      "title": "Parole chiave",
+      "items": [
+        "Monumento a Domenico Modugno",
+        "Modugno Statue",
+        "The Volare Statue",
+        "Polignano a Mare",
+        "《Volare》"
+      ]
     }
+  },
+  "knowledge": {
+    "title": "Esplora il punto di riferimento culturale di Polignano",
+    "sections": [
+      {
+        "id": "monumento",
+        "title": "Monumento a Domenico Modugno",
+        "content": "Creato dallo scultore Hermann Mejer e inaugurato il 31 maggio 2009, questo monumento in bronzo è più di una semplice opera d'arte; è un omaggio della gente del posto a un grande artista. Alta circa 3 metri, la statua cattura vividamente un momento dell'appassionata esibizione sul palco di Domenico Modugno."
+      },
+      {
+        "id": "statue",
+        "title": "Modugno Statue & The Volare Statue",
+        "content": "Tra i turisti internazionali, è spesso chiamata 'Modugno Statue' o 'The Volare Statue'. Rivolta verso il mare con le braccia spalancate, la statua simboleggia un abbraccio al mondo e il desiderio di volare liberamente, illustrando perfettamente l'atmosfera della canzone che ha fatto impazzire il mondo."
+      },
+      {
+        "id": "polignano",
+        "title": "Polignano a Mare",
+        "content": "Polignano a Mare è una perla della Puglia in Italia, famosa per le sue case bianche costruite su scogliere calcaree e il cristallino Mar Adriatico. Essendo il luogo di nascita di Domenico Modugno, questa città gli ha dato un'ispirazione infinita, e oggi questa statua è diventata il biglietto da visita culturale più brillante della città."
+      },
+      {
+        "id": "volare",
+        "title": "La leggenda di 'Volare'",
+        "content": "'Volare' (titolo originale 'Nel blu, dipinto di blu'), pubblicata nel 1958, ha spazzato il globo e vinto due Grammy Awards. La canzone non è solo una pietra miliare nella storia della musica italiana, ma anche un simbolo globale di ottimismo, romanticismo e passione italiani. Stando davanti alla statua con la brezza marina che soffia, si può quasi sentire riecheggiare quella melodia familiare."
+      }
+    ]
   },
   "gallery": {
     "title": "Galleria Fotografica",

@@ -38,7 +38,42 @@
         "Just a short walk from the historic center and the famous Lama Monachile beach",
         "Tribute to the singer of 'Volare', Italian musical heritage"
       ]
+    },
+    "keywords": {
+      "title": "Related Keywords",
+      "items": [
+        "Monumento a Domenico Modugno",
+        "Modugno Statue",
+        "The Volare Statue",
+        "Polignano a Mare",
+        "《Volare》"
+      ]
     }
+  },
+  "knowledge": {
+    "title": "Explore Polignano's Cultural Landmark",
+    "sections": [
+      {
+        "id": "monumento",
+        "title": "Monumento a Domenico Modugno",
+        "content": "Created by sculptor Hermann Mejer and unveiled on May 31, 2009, this bronze monument is more than just an artwork; it is a tribute from the locals to a great artist. Standing about 3 meters tall, the statue vividly captures a moment of Domenico Modugno's passionate performance on stage."
+      },
+      {
+        "id": "statue",
+        "title": "Modugno Statue & The Volare Statue",
+        "content": "Among international tourists, it is often referred to as the 'Modugno Statue' or 'The Volare Statue'. Facing the sea with arms wide open, the statue symbolizes an embrace of the world and a desire to fly freely, perfectly illustrating the mood of the song that drove the world crazy."
+      },
+      {
+        "id": "polignano",
+        "title": "Polignano a Mare",
+        "content": "Polignano a Mare is a pearl of the Apulia region in Italy, famous for its white houses built on limestone cliffs and the crystal-clear Adriatic Sea. As the birthplace of Domenico Modugno, this city gave him endless inspiration, and today this statue has become the city's most shining cultural calling card."
+      },
+      {
+        "id": "volare",
+        "title": "The Legend of 'Volare'",
+        "content": "'Volare' (originally titled 'Nel blu, dipinto di blu'), released in 1958, swept the globe and won two Grammy Awards. The song is not only a milestone in Italian music history but also a global symbol of Italian optimism, romance, and passion. Standing in front of the statue with the sea breeze blowing, one can almost hear that familiar melody echoing."
+      }
+    ]
   },
   "gallery": {
     "title": "Photo Gallery",

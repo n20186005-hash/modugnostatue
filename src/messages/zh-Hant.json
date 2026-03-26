@@ -38,7 +38,42 @@
         "步行即可抵達舊城區和著名的拉馬莫納奇萊海灘",
         "致敬《Volare》歌手，義大利音樂文化瑰寶"
       ]
+    },
+    "keywords": {
+      "title": "相關關鍵字",
+      "items": [
+        "Monumento a Domenico Modugno",
+        "Modugno Statue",
+        "The Volare Statue",
+        "Polignano a Mare",
+        "《Volare》"
+      ]
     }
+  },
+  "knowledge": {
+    "title": "探索波利尼亞諾的文化地標",
+    "sections": [
+      {
+        "id": "monumento",
+        "title": "Monumento a Domenico Modugno",
+        "content": "這座青銅紀念碑由雕塑家 Hermann Mejer 創作，於2009年5月31日揭幕。它不僅是一件藝術品，更是當地人對這位偉大藝術家的致敬。雕像高約3米，生動捕捉了多梅尼科·莫杜尼奧在舞台上充滿激情的表演瞬間。"
+      },
+      {
+        "id": "statue",
+        "title": "Modugno Statue & The Volare Statue",
+        "content": "在國際遊客中，它常被稱為「Modugno Statue」或「The Volare Statue」。雕像面朝大海，張開雙臂的姿態象徵著擁抱世界與自由飛翔的願望，完美詮釋了那首讓世界為之瘋狂的歌曲意境。"
+      },
+      {
+        "id": "polignano",
+        "title": "Polignano a Mare",
+        "content": "波利尼亞諾濱海是義大利普利亞大區的一顆明珠，以其建在石灰岩懸崖上的白色房屋和清澈見底的亞得里亞海而聞名。這裡是多梅尼科·莫杜尼奧的出生地，這座城市賦予了他無限的靈感，如今這座雕像也成為了城市最閃耀的文化名片。"
+      },
+      {
+        "id": "volare",
+        "title": "《Volare》的傳奇",
+        "content": "《Volare》（原名《Nel blu, dipinto di blu》）發行於1958年，隨即席捲全球，贏得了兩項葛萊美獎。這首歌不仅是義大利音樂史上的里程碑，更成為了代表義大利樂觀、浪漫與激情的全球性符號。站在雕像前，海風吹拂，彷彿還能聽到那熟悉的旋律在耳邊迴盪。"
+      }
+    ]
   },
   "gallery": {
     "title": "照片集錦",

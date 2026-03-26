@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 export default function Intro() {
   const t = useTranslations('intro');
   const items: string[] = t.raw('highlights.items');
+  const keywords: string[] = t.raw('keywords.items');
 
   return (
     <section className="section-padding">
@@ -22,24 +23,53 @@ export default function Intro() {
           {t('description')}
         </p>
 
-        <div
-          className="rounded-xl p-6 sm:p-8"
-          style={{ background: 'var(--bg-tertiary)' }}
-        >
-          <h3
-            className="font-display text-xl font-semibold mb-4"
-            style={{ color: 'var(--text-primary)' }}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div
+            className="rounded-xl p-6 sm:p-8"
+            style={{ background: 'var(--bg-tertiary)' }}
           >
-            {t('highlights.title')}
-          </h3>
-          <ul className="space-y-3">
-            {items.map((item, i) => (
-              <li key={i} className="flex items-start gap-3">
-                <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />
-                <span style={{ color: 'var(--text-secondary)' }}>{item}</span>
-              </li>
-            ))}
-          </ul>
+            <h3
+              className="font-display text-xl font-semibold mb-4"
+              style={{ color: 'var(--text-primary)' }}
+            >
+              {t('highlights.title')}
+            </h3>
+            <ul className="space-y-3">
+              {items.map((item, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />
+                  <span style={{ color: 'var(--text-secondary)' }}>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div
+            className="rounded-xl p-6 sm:p-8"
+            style={{ background: 'var(--bg-tertiary)' }}
+          >
+            <h3
+              className="font-display text-xl font-semibold mb-4"
+              style={{ color: 'var(--text-primary)' }}
+            >
+              {t('keywords.title')}
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {keywords.map((keyword, i) => (
+                <span
+                  key={i}
+                  className="text-sm px-3 py-1.5 rounded-full"
+                  style={{
+                    background: 'var(--tag-bg)',
+                    color: 'var(--tag-text)',
+                    border: '1px solid var(--border-color)'
+                  }}
+                >
+                  {keyword}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
