@@ -7,6 +7,8 @@ import { useState, useRef, useEffect } from 'react';
 
 const labels: Record<string, string> = {
   it: 'Italiano',
+  en: 'English',
+  fr: 'Français',
   'zh-Hant': '繁體中文',
 };
 
