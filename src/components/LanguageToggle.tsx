@@ -31,15 +31,26 @@ export default function LanguageToggle() {
 
   function switchLocale(next: Locale) {
     setOpen(false);
+    
+    // 如果当前已经在目标语言，不执行任何操作
+    if (next === locale) return;
+
     const segments = pathname.split('/').filter(Boolean);
+    
     // Remove current locale prefix if present
     if (routing.locales.includes(segments[0] as Locale)) {
       segments.shift();
     }
-    const newPath = next === routing.defaultLocale
-      ? `/${segments.join('/')}`
-      : `/${next}/${segments.join('/')}`;
-    router.push(newPath || '/');
+    
+    // Construct new path
+    const pathWithoutLocale = segments.length > 0 ? `/${segments.join('/')}` : '/';
+    
+    // Navigate
+    if (next === routing.defaultLocale) {
+      router.push(pathWithoutLocale);
+    } else {
+      router.push(`/${next}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`);
+    }
   }
 
   return (
