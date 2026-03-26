@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Monumento a Domenico Modugno | Polignano a Mare",
+    "description": "Guida completa al Monumento a Domenico Modugno a Polignano a Mare, Puglia. Orari, come arrivare, foto e recensioni."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Galleria",
+    "reviews": "Recensioni",
+    "map": "Mappa",
+    "backToHome": "Torna alla Home"
+  },
+  "hero": {
+    "title": "Monumento a Domenico Modugno",
+    "subtitle": "Il punto panoramico più iconico di Polignano a Mare",
+    "rating": "4.8/5",
+    "reviewCount": "11.183 recensioni",
+    "hours": "Aperto 24h/24",
+    "openMaps": "Apri su Google Maps",
+    "tags": {
+      "statua": "Statua",
+      "volare": "Volare",
+      "mare": "Mare",
+      "polignano": "Polignano",
+      "musica": "Musica",
+      "fotografia": "Fotografia"
+    }
+  },
+  "intro": {
+    "title": "Scopri il Monumento",
+    "description": "Situato sul lungomare di Polignano a Mare, questo monumento in bronzo rende omaggio a Domenico Modugno — il leggendario cantautore italiano che ha incantato il mondo con «Volare» (Nel blu dipinto di blu). La statua lo ritrae con le braccia spalancate verso il mare Adriatico, in un gesto che è diventato il simbolo della città.",
+    "highlights": {
+      "title": "In evidenza",
+      "items": [
+        "Icona fotografica — il punto più instagrammato di Polignano a Mare",
+        "Accesso gratuito 24 ore su 24, 365 giorni all'anno",
+        "Vista mozzafiato sulle scogliere e sul mare Adriatico",
+        "A pochi passi dal centro storico e dalla famosa Lama Monachile",
+        "Omaggio al cantante di «Volare», patrimonio musicale italiano"
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Galleria Fotografica",
+    "subtitle": "Scorci dal lungomare e dal monumento",
+    "captions": [
+      "La statua al tramonto con vista sul mare",
+      "Le braccia aperte verso l'Adriatico",
+      "Vista panoramica delle scogliere di Polignano",
+      "Il centro storico arroccato sulla scogliera",
+      "Lama Monachile — la spiaggia iconica",
+      "Dettaglio del monumento in bronzo"
+    ],
+    "photoCredit": "Foto: Google Maps (ultimo aggiornamento: 2026)",
+    "viewAll": "Vedi tutte le foto su Google Maps"
+  },
+  "reviews": {
+    "title": "Recensioni dei Visitatori",
+    "declaration": "Valutazioni e recensioni provenienti da Google Maps (ultimo aggiornamento: 2026). Mostriamo solo una selezione di recensioni verificate con punteggio elevato. Per vedere tutte le recensioni complete e più recenti, clicca sul link qui sotto.",
+    "moreReviews": "Vedi tutte le recensioni su Google Maps",
+    "items": [
+      {
+        "name": "Marco Bianchi",
+        "date": "Marzo 2026",
+        "rating": 5,
+        "text": "Posto meraviglioso! La statua è bellissima e la vista sul mare è spettacolare. Perfetto per le foto al tramonto."
+      },
+      {
+        "name": "Laura Rossi",
+        "date": "Febbraio 2026",
+        "rating": 5,
+        "text": "Un luogo magico. Ho cantato Volare davanti alla statua, emozione pura. Da non perdere!"
+      },
+      {
+        "name": "Giovanni De Luca",
+        "date": "Gennaio 2026",
+        "rating": 5,
+        "text": "Simbolo di Polignano. La posizione sulla scogliera è incredibile, specialmente al tramonto."
+      },
+      {
+        "name": "Sofia Moretti",
+        "date": "Dicembre 2025",
+        "rating": 5,
+        "text": "Bellissimo monumento con una vista mozzafiato. Consiglio di andarci sia di giorno che al tramonto."
+      },
+      {
+        "name": "Alessandro Ferretti",
+        "date": "Novembre 2025",
+        "rating": 5,
+        "text": "Imperdibile! La statua è imponente e il panorama è tra i più belli della Puglia."
+      },
+      {
+        "name": "Chiara Romano",
+        "date": "Ottobre 2025",
+        "rating": 4,
+        "text": "Molto suggestivo. Può essere affollato in estate, meglio visitarlo la mattina presto."
+      },
+      {
+        "name": "Francesco Esposito",
+        "date": "Settembre 2025",
+        "rating": 5,
+        "text": "Un tributo perfetto a Modugno. La brezza marina e la vista rendono questo posto indimenticabile."
+      },
+      {
+        "name": "Elena Colombo",
+        "date": "Agosto 2025",
+        "rating": 5,
+        "text": "Ho aperto le braccia come la statua e mi sono sentita volare. Un'esperienza unica!"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Come Arrivare",
+    "subtitle": "Lungomare Domenico Modugno, 70044 Polignano a Mare BA, Italia",
+    "openMaps": "Apri su Google Maps"
+  },
+  "sources": {
+    "title": "Dati e Riferimenti",
+    "text": "Questo sito è un portale turistico indipendente di terze parti. Le informazioni sono tratte da risorse pubbliche (uffici turistici e Wikipedia) e dati di base di Google Maps.",
+    "googleMaps": "Google Maps — Valutazioni, recensioni e dati geografici",
+    "unsplash": "Unsplash — Fotografie utilizzate nella galleria",
+    "wikipedia": "Wikipedia — Informazioni storiche e biografiche"
+  },
+  "footer": {
+    "support": "Per assistenza tecnica su questo sito, contattare:",
+    "rights": "© 2026 Monumento a Domenico Modugno · Tutti i diritti riservati.",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di Servizio",
+    "cookies": "Impostazioni Cookie",
+    "disclaimer": "Sito turistico indipendente — non affiliato con enti governativi."
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
+    "sections": [
+      {
+        "heading": "Raccolta dei Dati",
+        "content": "Questo sito raccoglie dati minimi di navigazione attraverso cookie di analytics per comprendere i modelli di traffico. Non raccogliamo informazioni personali identificabili a meno che non ci contattiate direttamente."
+      },
+      {
+        "heading": "Utilizzo dei Cookie",
+        "content": "Utilizziamo cookie essenziali per la funzionalità del sito (preferenza lingua, preferenza tema) e cookie opzionali di analytics. Puoi gestire le preferenze nella pagina Impostazioni Cookie."
+      },
+      {
+        "heading": "Servizi di Terze Parti",
+        "content": "Questo sito integra Google Maps per le mappe e Unsplash per le fotografie. Questi servizi possono raccogliere dati secondo le proprie informative sulla privacy."
+      },
+      {
+        "heading": "Contatti",
+        "content": "Per domande sulla privacy, contattare: claritleonelmnicol@gmail.com"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Termini di Servizio",
+    "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
+    "sections": [
+      {
+        "heading": "Accettazione dei Termini",
+        "content": "Accedendo a questo sito web, accetti di essere vincolato da questi termini di servizio. Se non sei d'accordo con qualsiasi parte dei termini, non accedere al sito."
+      },
+      {
+        "heading": "Accuratezza dei Contenuti",
+        "content": "Ci impegniamo a fornire informazioni accurate e aggiornate. Tuttavia, non garantiamo la completezza o l'accuratezza dei contenuti. Orari, condizioni e dettagli di accesso possono cambiare senza preavviso."
+      },
+      {
+        "heading": "Utilizzo del Sito",
+        "content": "Questo sito è destinato esclusivamente a scopi informativi. Non siamo affiliati con enti governativi locali, uffici turistici o Google Maps. Tutti i marchi appartengono ai rispettivi proprietari."
+      },
+      {
+        "heading": "Limitazione di Responsabilità",
+        "content": "Non ci assumiamo alcuna responsabilità per decisioni prese sulla base delle informazioni fornite su questo sito. Verifica sempre i dettagli con le fonti ufficiali prima della visita."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Impostazioni Cookie",
+    "description": "Gestisci le tue preferenze sui cookie. I cookie essenziali sono necessari per il funzionamento del sito e non possono essere disattivati.",
+    "essential": {
+      "title": "Cookie Essenziali",
+      "description": "Necessari per le funzionalità di base del sito: preferenza lingua, preferenza tema, gestione sessione.",
+      "badge": "Sempre attivi"
+    },
+    "analytics": {
+      "title": "Cookie di Analytics",
+      "description": "Ci aiutano a capire come i visitatori interagiscono con il sito raccogliendo dati anonimi su traffico e utilizzo."
+    },
+    "marketing": {
+      "title": "Cookie di Marketing",
+      "description": "Utilizzati per tracciare i visitatori tra i siti web per mostrare annunci pertinenti. Attualmente non utilizziamo cookie di marketing."
+    },
+    "save": "Salva Preferenze",
+    "saved": "Preferenze salvate!"
+  }
+}

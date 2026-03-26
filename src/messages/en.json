@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Domenico Modugno Statue | Polignano a Mare",
+    "description": "Complete guide to the Domenico Modugno Statue in Polignano a Mare, Puglia. Hours, directions, photos and reviews."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Domenico Modugno Statue",
+    "subtitle": "The most iconic viewpoint in Polignano a Mare",
+    "rating": "4.8/5",
+    "reviewCount": "11,183 reviews",
+    "hours": "Open 24h/24",
+    "openMaps": "Open on Google Maps",
+    "tags": {
+      "statue": "Statue",
+      "volare": "Volare",
+      "mare": "Sea",
+      "polignano": "Polignano",
+      "musica": "Music",
+      "fotografia": "Photography"
+    }
+  },
+  "intro": {
+    "title": "Discover the Statue",
+    "description": "Located on the waterfront of Polignano a Mare, this bronze monument honors Domenico Modugno — the legendary Italian singer-songwriter who captivated the world with 'Volare' (Nel blu dipinto di blu). The statue depicts him with arms outstretched toward the Adriatic Sea, a gesture that has become the symbol of the city.",
+    "highlights": {
+      "title": "Highlights",
+      "items": [
+        "Photo icon — the most instagrammable spot in Polignano a Mare",
+        "Free access 24 hours a day, 365 days a year",
+        "Breathtaking views of the cliffs and the Adriatic Sea",
+        "Just a short walk from the historic center and the famous Lama Monachile beach",
+        "Tribute to the singer of 'Volare', Italian musical heritage"
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Views from the waterfront and monument",
+    "captions": [
+      "The statue at sunset with sea view",
+      "Arms outstretched toward the Adriatic",
+      "Panoramic view of Polignano's cliffs",
+      "The historic center perched on the cliff",
+      "Lama Monachile — the iconic beach",
+      "Bronze monument detail"
+    ],
+    "photoCredit": "Photo: Google Maps (last updated: 2026)",
+    "viewAll": "View all photos on Google Maps"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Ratings and reviews from Google Maps (last updated: 2026). We show only a selection of verified high-rated reviews. To see all complete and most recent reviews, click the link below.",
+    "moreReviews": "See all reviews on Google Maps",
+    "items": [
+      {
+        "name": "Marco Bianchi",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "Wonderful place! The statue is beautiful and the sea view is spectacular. Perfect for sunset photos."
+      },
+      {
+        "name": "Laura Rossi",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "A magical place. I sang Volare in front of the statue, pure emotion. Not to be missed!"
+      },
+      {
+        "name": "Giovanni De Luca",
+        "date": "January 2026",
+        "rating": 5,
+        "text": "Symbol of Polignano. The cliff position is incredible, especially at sunset."
+      },
+      {
+        "name": "Sofia Moretti",
+        "date": "December 2025",
+        "rating": 5,
+        "text": "Beautiful monument with stunning views. I recommend visiting both during the day and at sunset."
+      },
+      {
+        "name": "Alessandro Ferretti",
+        "date": "November 2025",
+        "rating": 5,
+        "text": "A must-visit! The statue is imposing and the panorama is one of the most beautiful in Puglia."
+      },
+      {
+        "name": "Chiara Romano",
+        "date": "October 2025",
+        "rating": 4,
+        "text": "Very atmospheric. Can be crowded in summer, better to visit early morning."
+      },
+      {
+        "name": "Francesco Esposito",
+        "date": "September 2025",
+        "rating": 5,
+        "text": "A perfect tribute to Modugno. The sea breeze and view make this place unforgettable."
+      },
+      {
+        "name": "Elena Colombo",
+        "date": "August 2025",
+        "rating": 5,
+        "text": "I opened my arms like the statue and felt like I was flying. A unique experience!"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Lungomare Domenico Modugno, 70044 Polignano a Mare BA, Italy",
+    "openMaps": "Open on Google Maps"
+  },
+  "sources": {
+    "title": "Data and References",
+    "text": "This site is an independent third-party tourist portal. Information is drawn from public resources (tourist offices and Wikipedia) and Google Maps baseline data.",
+    "googleMaps": "Google Maps — Ratings, reviews and geographic data",
+    "unsplash": "Unsplash — Photographs used in the gallery",
+    "wikipedia": "Wikipedia — Historical and biographical information"
+  },
+  "footer": {
+    "support": "For technical assistance with this site, contact:",
+    "rights": "© 2026 Monumento a Domenico Modugno · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "disclaimer": "Independent tourist site — not affiliated with government entities."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      {
+        "heading": "Information Collection",
+        "content": "We are committed to protecting your privacy. This site primarily serves as an information platform and generally does not actively collect personally identifiable information from users. However, through server logs and analytics tools, we may collect non-personally identifiable information such as browser type, access times, and page view records."
+      },
+      {
+        "heading": "Use of Cookies",
+        "content": "To provide a better user experience and understand how the site is used, we may use cookies. These cookies are used to remember user preferences and analyze site traffic. You can adjust cookie settings in your browser."
+      },
+      {
+        "heading": "Third-Party Links",
+        "content": "This site may contain links to third-party websites (e.g., Google Maps). We are not responsible for the privacy practices of these external sites. We encourage you to read the privacy statements of each site that collects personal information when you leave our site."
+      },
+      {
+        "heading": "Contact Us",
+        "content": "If you have any questions or concerns regarding this privacy policy, please contact us at: claritleonelmnicol@gmail.com"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      {
+        "heading": "Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you do not agree with any part of these terms, please do not use our site."
+      },
+      {
+        "heading": "Use of Content",
+        "content": "The information provided on this website is for general informational purposes only. While we strive to maintain accurate and up-to-date information, we make no representation or warranty of any kind, express or implied, as to the completeness, accuracy, reliability, or suitability of the information."
+      },
+      {
+        "heading": "Intellectual Property",
+        "content": "Unless otherwise indicated, all content on this site (including text, images, logos) is protected by copyright. No reproduction, distribution, or commercial use is permitted without explicit permission. Photo credits may include royalty-free resources from platforms such as Unsplash or contributors on Google Maps."
+      },
+      {
+        "heading": "Limitation of Liability",
+        "content": "To the fullest extent permitted by law, this site and its owners shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of or inability to use this site. When visiting natural sites, please always prioritize safety."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences. Strictly necessary cookies are required for the website to function and cannot be disabled.",
+    "essential": {
+      "title": "Strictly Necessary Cookies",
+      "description": "Required for basic website functionality: language preference, theme preference, session management.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "These cookies help us understand how visitors interact with the site by collecting anonymous data on traffic and usage."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites to display relevant advertisements. We currently do not use marketing cookies."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  }
+}

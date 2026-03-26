@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Statue Domenico Modugno | Polignano a Mare",
+    "description": "Guide complet de la Statue Domenico Modugno à Polignano a Mare, Pouilles. Horaires, itinéraires, photos et avis."
+  },
+  "header": {
+    "home": "Accueil",
+    "gallery": "Galerie",
+    "reviews": "Avis",
+    "map": "Carte",
+    "backToHome": "Retour à l'accueil"
+  },
+  "hero": {
+    "title": "Statue Domenico Modugno",
+    "subtitle": "Le point de vue le plus emblématique de Polignano a Mare",
+    "rating": "4,8/5",
+    "reviewCount": "11 183 avis",
+    "hours": "Ouvert 24h/24",
+    "openMaps": "Ouvrir sur Google Maps",
+    "tags": {
+      "statua": "Statue",
+      "volare": "Volare",
+      "mare": "Mer",
+      "polignano": "Polignano",
+      "musica": "Musique",
+      "fotografia": "Photographie"
+    }
+  },
+  "intro": {
+    "title": "Découvrir la Statue",
+    "description": "Situé sur le front de mer de Polignano a Mare, ce monument en bronze rend hommage à Domenico Modugno — le légendaire auteur-compositeur-interprète italien qui a conquis le monde avec « Volare » (Nel blu dipinto di blu). La statue le représente les bras grands ouverts vers la mer Adriatique, un geste devenu le symbole de la ville.",
+    "highlights": {
+      "title": "Points forts",
+      "items": [
+        "Icône photo — l'endroit le plus photogénique de Polignano a Mare",
+        "Accès gratuit 24 heures sur 24, 365 jours par an",
+        "Vue à couper le souffle sur les falaises et la mer Adriatique",
+        "À quelques pas du centre historique et de la célèbre plage Lama Monachile",
+        "Hommage au chanteuse de « Volare », patrimoine musical italien"
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Galerie Photos",
+    "subtitle": "Vues du front de mer et du monument",
+    "captions": [
+      "La statue au coucher du soleil avec vue sur la mer",
+      "Les bras ouverts vers l'Adriatique",
+      "Vue panoramique des falaises de Polignano",
+      "Le centre historique perché sur la falaise",
+      "Lama Monachile — la plage emblématique",
+      "Détail du monument en bronze"
+    ],
+    "photoCredit": "Photo : Google Maps (dernière mise à jour : 2026)",
+    "viewAll": "Voir toutes les photos sur Google Maps"
+  },
+  "reviews": {
+    "title": "Avis des Visiteurs",
+    "declaration": "Évaluations et avis provenant de Google Maps (dernière mise à jour : 2026). Nous affichons uniquement une sélection d'avis vérifiés et bien notés. Pour voir tous les avis complets et les plus récents, cliquez sur le lien ci-dessous.",
+    "moreReviews": "Voir tous les avis sur Google Maps",
+    "items": [
+      {
+        "name": "Marco Bianchi",
+        "date": "Mars 2026",
+        "rating": 5,
+        "text": "Endroit magnifique ! La statue est belle et la vue sur la mer est spectaculaire. Parfait pour les photos au coucher du soleil."
+      },
+      {
+        "name": "Laura Rossi",
+        "date": "Février 2026",
+        "rating": 5,
+        "text": "Un lieu magique. J'ai chanté Volare devant la statue, émotion pure. À ne pas manquer !"
+      },
+      {
+        "name": "Giovanni De Luca",
+        "date": "Janvier 2026",
+        "rating": 5,
+        "text": "Symbole de Polignano. La position sur la falaise est incroyable, surtout au coucher du soleil."
+      },
+      {
+        "name": "Sofia Moretti",
+        "date": "Décembre 2025",
+        "rating": 5,
+        "text": "Beau monument avec une vue imprenable. Je recommande d'y aller de jour comme au coucher du soleil."
+      },
+      {
+        "name": "Alessandro Ferretti",
+        "date": "Novembre 2025",
+        "rating": 5,
+        "text": "Incontournable ! La statue est imposante et le panorama est l'un des plus beaux des Pouilles."
+      },
+      {
+        "name": "Chiara Romano",
+        "date": "Octobre 2025",
+        "rating": 4,
+        "text": "Très évocateur. Peut être bondé en été, mieux vaut visiter tôt le matin."
+      },
+      {
+        "name": "Francesco Esposito",
+        "date": "Septembre 2025",
+        "rating": 5,
+        "text": "Un hommage parfait à Modugno. La brise marine et la vue rendent cet endroit inoubliable."
+      },
+      {
+        "name": "Elena Colombo",
+        "date": "Août 2025",
+        "rating": 5,
+        "text": "J'ai ouvert les bras comme la statue et je me suis sentie voler. Une expérience unique !"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Comment S'y Rendre",
+    "subtitle": "Lungomare Domenico Modugno, 70044 Polignano a Mare BA, Italie",
+    "openMaps": "Ouvrir sur Google Maps"
+  },
+  "sources": {
+    "title": "Données et Références",
+    "text": "Ce site est un portail touristique indépendant tiers. Les informations proviennent de ressources publiques (offices de tourisme et Wikipedia) et de données de base Google Maps.",
+    "googleMaps": "Google Maps — Évaluations, avis et données géographiques",
+    "unsplash": "Unsplash — Photographies utilisées dans la galerie",
+    "wikipedia": "Wikipedia — Informations historiques et biographiques"
+  },
+  "footer": {
+    "support": "Pour assistance technique concernant ce site, contactez :",
+    "rights": "© 2026 Monumento a Domenico Modugno · Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "cookies": "Paramètres des Cookies",
+    "disclaimer": "Site touristique indépendant — non affilié aux entités gouvernementales."
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : Mars 2026",
+    "sections": [
+      {
+        "heading": "Collecte d'informations",
+        "content": "Nous nous engageons à protéger votre vie privée. Ce site sert principalement de plateforme d'information et ne collecte généralement pas activement d'informations d'identification personnelle des utilisateurs. Cependant, par le biais des journaux de serveur et des outils d'analyse, nous pouvons collecter des informations non personnellement identifiables telles que le type de navigateur, les temps d'accès et les enregistrements de pages vues."
+      },
+      {
+        "heading": "Utilisation des cookies",
+        "content": "Pour offrir une meilleure expérience utilisateur et comprendre comment le site est utilisé, nous pouvons utiliser des cookies. Ces cookies sont utilisés pour se souvenir des préférences des utilisateurs et analyser le trafic du site. Vous pouvez ajuster les paramètres des cookies dans votre navigateur."
+      },
+      {
+        "heading": "Liens tiers",
+        "content": "Ce site peut contenir des liens vers des sites tiers (par exemple, Google Maps). Nous ne sommes pas responsables des pratiques de confidentialité de ces sites externes. Nous vous encourageons à lire les déclarations de confidentialité de chaque site qui collecte des informations personnelles lorsque vous quittez notre site."
+      },
+      {
+        "heading": "Nous contacter",
+        "content": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, veuillez nous contacter à : claritleonelmnicol@gmail.com"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "lastUpdated": "Dernière mise à jour : Mars 2026",
+    "sections": [
+      {
+        "heading": "Acceptation des conditions",
+        "content": "En accédant et en utilisant ce site Web, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas une partie considérable de ces conditions, veuillez ne pas utiliser notre site."
+      },
+      {
+        "heading": "Utilisation du contenu",
+        "content": "Les informations fournies sur ce site Web sont à des fins d'information générale uniquement. Bien que nous nous efforcions de maintenir les informations exactes et à jour, nous ne faisons aucune représentation ou garantie d'aucune sorte, expresse ou implicite, quant à l'exhaustivité, l'exactitude, la fiabilité ou l'adéquation des informations."
+      },
+      {
+        "heading": "Propriété intellectuelle",
+        "content": "Sauf indication contraire, tout le contenu de ce site (y compris les textes, images, logos) est protégé par le droit d'auteur. Aucune reproduction, distribution ou utilisation commerciale n'est autorisée sans autorisation explicite. Les crédits photos peuvent inclure des ressources libres de droits provenant de plateformes telles que Unsplash ou de contributeurs sur Google Maps."
+      },
+      {
+        "heading": "Limitation de responsabilité",
+        "content": "Dans toute la mesure permise par la loi, ce site et ses propriétaires ne seront pas responsables des dommages directs, indirects, accessoires ou consécutifs découlant de l'utilisation ou de l'incapacité d'utiliser ce site. Lors de la visite de sites naturels, veuillez toujours donner la priorité à la sécurité."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Paramètres des Cookies",
+    "description": "Gérez vos préférences en matière de cookies. Les cookies strictement nécessaires sont indispensables au fonctionnement du site Web et ne peuvent pas être désactivés.",
+    "essential": {
+      "title": "Cookies Strictement Nécessaires",
+      "description": "Nécessaires au fonctionnement de base du site : préférence de langue, préférence de thème, gestion de session.",
+      "badge": "Toujours actifs"
+    },
+    "analytics": {
+      "title": "Cookies d'Analyse",
+      "description": "Ces cookies nous permettent de compter les visites et les sources de trafic afin que nous puissions mesurer et améliorer les performances de notre site."
+    },
+    "marketing": {
+      "title": "Cookies Marketing",
+      "description": "Utilisés pour suivre les visiteurs sur les sites Web afin de leur afficher des publicités pertinentes. Nous n'utilisons actuellement pas de cookies marketing."
+    },
+    "save": "Enregistrer les Préférences",
+    "saved": "Préférences enregistrées !"
+  }
+}

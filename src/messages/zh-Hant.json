@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "多梅尼科·莫杜尼奧紀念碑 | 波利尼亞諾濱海",
+    "description": "義大利波利尼亞諾濱海多梅尼科·莫杜尼奧紀念碑完整指南。開放時間、交通方式、照片與評價。"
+  },
+  "header": {
+    "home": "首頁",
+    "gallery": "相簿",
+    "reviews": "評價",
+    "map": "地圖",
+    "backToHome": "返回首頁"
+  },
+  "hero": {
+    "title": "Monumento a Domenico Modugno",
+    "subtitle": "波利尼亞諾濱海最具標誌性的觀景點",
+    "rating": "4.8/5",
+    "reviewCount": "11,183 則評價",
+    "hours": "全天候開放",
+    "openMaps": "在 Google Maps 中開啟",
+    "tags": {
+      "statua": "雕像",
+      "volare": "飛翔",
+      "mare": "大海",
+      "polignano": "波利尼亞諾",
+      "musica": "音樂",
+      "fotografia": "攝影"
+    }
+  },
+  "intro": {
+    "title": "認識紀念碑",
+    "description": "這座青銅紀念碑矗立在波利尼亞諾濱海（Polignano a Mare）的海濱長廊上，向義大利傳奇歌手多梅尼科·莫杜尼奧致敬——他以一曲《Volare》（在藍天中翱翔）風靡全球。雕像展現他面朝亞得里亞海張開雙臂的姿態，這個動作已成為這座城市的象徵。",
+    "highlights": {
+      "title": "重點亮點",
+      "items": [
+        "攝影地標 — 波利尼亞諾濱海最受歡迎的打卡點",
+        "全年免費開放，24小時皆可造訪",
+        "懸崖峭壁與亞得里亞海的壯闊景色",
+        "步行即可抵達舊城區和著名的拉馬莫納奇萊海灘",
+        "致敬《Volare》歌手，義大利音樂文化瑰寶"
+      ]
+    }
+  },
+  "gallery": {
+    "title": "照片集錦",
+    "subtitle": "海濱長廊與紀念碑的精彩瞬間",
+    "captions": [
+      "夕陽下的雕像與海景",
+      "面朝亞得里亞海張開的雙臂",
+      "波利尼亞諾懸崖全景",
+      "矗立於懸崖上的舊城區",
+      "拉馬莫納奇萊 — 標誌性海灘",
+      "青銅紀念碑細節"
+    ],
+    "photoCredit": "照片來源：Google Maps（最後更新：2026年）",
+    "viewAll": "在 Google Maps 查看所有照片"
+  },
+  "reviews": {
+    "title": "真實遊客評價",
+    "declaration": "評分和評價來自 Google 地圖（最後更新：2026年）。我們僅展示經過驗證的精選高分評價。如需查看所有完整和最新評價，請點擊下方連結。",
+    "moreReviews": "在 Google Maps 查看所有評價",
+    "items": [
+      {
+        "name": "Marco Bianchi",
+        "date": "2026年3月",
+        "rating": 5,
+        "text": "太美了！雕像非常壯觀，海景令人嘆為觀止。日落時分拍照最完美。"
+      },
+      {
+        "name": "Laura Rossi",
+        "date": "2026年2月",
+        "rating": 5,
+        "text": "一個充滿魔力的地方。我在雕像前唱起了Volare，純粹的感動。絕對不能錯過！"
+      },
+      {
+        "name": "Giovanni De Luca",
+        "date": "2026年1月",
+        "rating": 5,
+        "text": "波利尼亞諾的象徵。懸崖邊的位置令人驚嘆，尤其是在日落時分。"
+      },
+      {
+        "name": "Sofia Moretti",
+        "date": "2025年12月",
+        "rating": 5,
+        "text": "美麗的紀念碑配上壯闊的景色。建議白天和日落時各來一次。"
+      },
+      {
+        "name": "Alessandro Ferretti",
+        "date": "2025年11月",
+        "rating": 5,
+        "text": "必訪景點！雕像氣勢宏偉，全普利亞最美的風景之一。"
+      },
+      {
+        "name": "Chiara Romano",
+        "date": "2025年10月",
+        "rating": 4,
+        "text": "非常有氣氛。夏天可能會很擁擠，建議清晨造訪。"
+      },
+      {
+        "name": "Francesco Esposito",
+        "date": "2025年9月",
+        "rating": 5,
+        "text": "對莫杜尼奧完美的致敬。海風和美景讓這裡成為難忘的體驗。"
+      },
+      {
+        "name": "Elena Colombo",
+        "date": "2025年8月",
+        "rating": 5,
+        "text": "我像雕像一樣張開雙臂，感覺自己在飛翔。獨一無二的體驗！"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "如何前往",
+    "subtitle": "Lungomare Domenico Modugno, 70044 Polignano a Mare BA, 義大利",
+    "openMaps": "在 Google Maps 中開啟"
+  },
+  "sources": {
+    "title": "數據與參考資料",
+    "text": "本網站為獨立的第三方旅遊資訊網站。資訊來源為公開資源（旅遊局和維基百科）以及 Google Maps 的基本數據。",
+    "googleMaps": "Google Maps — 評分、評價與地理數據",
+    "unsplash": "Unsplash — 相簿中使用的照片",
+    "wikipedia": "維基百科 — 歷史與人物傳記資訊"
+  },
+  "footer": {
+    "support": "如需本網站的技術支援，請聯繫：",
+    "rights": "© 2026 Monumento a Domenico Modugno · 保留所有權利。",
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "cookies": "Cookie 設定",
+    "disclaimer": "獨立旅遊資訊網站 — 與政府機構無關。"
+  },
+  "privacy": {
+    "title": "隱私權政策",
+    "lastUpdated": "最後更新：2026年3月",
+    "sections": [
+      {
+        "heading": "數據收集",
+        "content": "本網站透過分析Cookie收集最少的瀏覽數據，以了解流量模式。除非您直接聯繫我們，否則我們不會收集個人身份資訊。"
+      },
+      {
+        "heading": "Cookie 使用",
+        "content": "我們使用必要的Cookie來實現網站功能（語言偏好、主題偏好），以及可選的分析Cookie。您可以在Cookie設定頁面管理偏好。"
+      },
+      {
+        "heading": "第三方服務",
+        "content": "本網站整合了Google Maps地圖服務和Unsplash照片服務。這些服務可能會根據其各自的隱私權政策收集數據。"
+      },
+      {
+        "heading": "聯繫方式",
+        "content": "如有隱私相關問題，請聯繫：claritleonelmnicol@gmail.com"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服務條款",
+    "lastUpdated": "最後更新：2026年3月",
+    "sections": [
+      {
+        "heading": "條款接受",
+        "content": "訪問本網站即表示您同意受這些服務條款的約束。如果您不同意任何條款，請勿訪問本網站。"
+      },
+      {
+        "heading": "內容準確性",
+        "content": "我們致力於提供準確和最新的資訊。但我們不保證內容的完整性或準確性。開放時間、條件和訪問詳情可能會在未經通知的情況下變更。"
+      },
+      {
+        "heading": "網站使用",
+        "content": "本網站僅供資訊參考。我們與當地政府機關、旅遊局或Google Maps無任何關聯。所有商標均屬於其各自所有者。"
+      },
+      {
+        "heading": "責任限制",
+        "content": "我們不對基於本網站提供的資訊所做出的任何決定承擔責任。造訪前請務必向官方來源確認詳細資訊。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 設定",
+    "description": "管理您的Cookie偏好設定。必要Cookie是網站運作所需的，無法關閉。",
+    "essential": {
+      "title": "必要 Cookie",
+      "description": "網站基本功能所需：語言偏好、主題偏好、工作階段管理。",
+      "badge": "始終啟用"
+    },
+    "analytics": {
+      "title": "分析 Cookie",
+      "description": "透過收集匿名的流量和使用數據，幫助我們了解訪客如何與網站互動。"
+    },
+    "marketing": {
+      "title": "行銷 Cookie",
+      "description": "用於在網站之間追蹤訪客以展示相關廣告。我們目前不使用行銷Cookie。"
+    },
+    "save": "儲存偏好設定",
+    "saved": "偏好設定已儲存！"
+  }
+}
