@@ -16,29 +16,11 @@
     "rating": "4.8/5",
     "reviewCount": "11,183 reviews",
     "hours": "Open 24h/24",
-    "openMaps": "Open on Google Maps",
-    "tags": {
-      "statua": "Statue",
-      "volare": "Volare",
-      "mare": "Sea",
-      "polignano": "Polignano",
-      "musica": "Music",
-      "fotografia": "Photography"
-    }
+    "openMaps": "View Location"
   },
   "intro": {
     "title": "Discover the Statue",
-    "description": "Located on the waterfront of Polignano a Mare, this bronze monument honors Domenico Modugno — the legendary Italian singer-songwriter who captivated the world with 'Volare' (Nel blu dipinto di blu). The statue depicts him with arms outstretched toward the Adriatic Sea, a gesture that has become the symbol of the city. We welcome visitors to experience the magic of Polignano a Mare.",
-    "keywords": {
-      "title": "Related Keywords",
-      "items": [
-        "Monumento a Domenico Modugno",
-        "Modugno Statue",
-        "The Volare Statue",
-        "Polignano a Mare",
-        "《Volare》"
-      ]
-    },
+    "description": "Located on the waterfront of Polignano a Mare, this bronze monument honors Domenico Modugno — the legendary Italian singer-songwriter who captivated the world with 'Volare' (Nel blu dipinto di blu). Visitors are welcome to visit this public monument and experience the deep emotional connection between Domenico Modugno and his hometown.",
     "visitGuide": {
       "title": "Visit Guide",
       "items": [
@@ -46,6 +28,15 @@
         "No tickets or reservations are required.",
         "We recommend visiting along the Lungomare Domenico Modugno, especially at sunset or dusk.",
         "Enjoy the statue's classic pose facing the town and with its back to the sea, along with the surrounding Lama Monachile bay and Polignano a Mare old town."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Also Known As",
+      "items": [
+        "Monumento a Domenico Modugno",
+        "Modugno Statue",
+        "The Volare Statue",
+        "Iconic waterfront sculpture of Polignano a Mare"
       ]
     }
   },
@@ -85,12 +76,12 @@
       "Lama Monachile — the iconic beach",
       "Bronze monument detail"
     ],
-    "viewAll": "View all photos on Google Maps"
+    "viewAll": "View locations on Google Maps"
   },
   "reviews": {
     "title": "Visitor Reviews",
-    "declaration": "Real visitor feedback can be viewed via Google Maps.",
-    "moreReviews": "See all reviews on Google Maps",
+    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
+    "moreReviews": "View locations on Google Maps",
     "items": [
       {
         "name": "Marco Bianchi",
@@ -145,7 +136,7 @@
   "mapSection": {
     "title": "How to Get Here",
     "subtitle": "Lungomare Domenico Modugno, 70044 Polignano a Mare BA, Italy",
-    "openMaps": "Open on Google Maps"
+    "openMaps": "View on Google Maps"
   },
   "footer": {
     "rights": "© 2026 Comune di Polignano a Mare · All rights reserved. Last updated: March 2026",
@@ -164,20 +155,20 @@
     "lastUpdated": "Last updated: March 2026",
     "sections": [
       {
-        "heading": "Official Management",
-        "content": "This website is managed and operated by the Comune di Polignano a Mare."
+        "heading": "Official Platform",
+        "content": "This website is the official information platform of the Comune di Polignano a Mare."
       },
       {
         "heading": "Information Collection",
-        "content": "We are committed to protecting your privacy in compliance with GDPR and Italian data protection regulations. This site serves as a public service platform and generally does not actively collect personally identifiable information from users. Through server logs and analytics tools, we may collect non-personally identifiable information such as browser type, access times, and page view records."
+        "content": "As a public service platform, we are committed to protecting your privacy in compliance with GDPR and Italian data protection regulations. We generally do not actively collect personally identifiable information from users. Through server logs and analytics tools, we may collect non-personally identifiable information such as browser type, access times, and page view records."
       },
       {
         "heading": "Use of Cookies",
         "content": "To provide a better user experience and understand how the site is used, we may use cookies. These cookies are used to remember user preferences and analyze site traffic. You can adjust cookie settings in your browser."
       },
       {
-        "heading": "Third-Party Services",
-        "content": "This site integrates third-party services (e.g., Google Maps for geographical data and reviews). These services may collect information in accordance with their own privacy policies."
+        "heading": "Third-Party Services Disclosure",
+        "content": "This site integrates third-party services (e.g., Google Maps for geographical data). These external services operate under their own privacy policies."
       }
     ]
   },
@@ -186,8 +177,8 @@
     "lastUpdated": "Last updated: March 2026",
     "sections": [
       {
-        "heading": "Official Management",
-        "content": "This website is managed and operated by the Comune di Polignano a Mare."
+        "heading": "Official Platform",
+        "content": "This website is the official information platform of the Comune di Polignano a Mare."
       },
       {
         "heading": "Acceptance of Terms",
@@ -198,7 +189,7 @@
         "content": "The information provided on this website is official public information. While we strive to maintain accurate and up-to-date information, users should refer to official municipal notices for the most current updates."
       },
       {
-        "heading": "External Links Disclaimer",
+        "heading": "External Links Disclosure",
         "content": "This site contains links to external services like Google Maps. We are not responsible for the content or privacy practices of these external platforms."
       }
     ]
@@ -224,6 +215,6 @@
   },
   "officialManagement": {
     "title": "Official Management",
-    "text": "The Monumento a Domenico Modugno is managed and maintained by the Comune di Polignano a Mare. As a cultural heritage dedicated to the famous son of Polignano a Mare, this monument is an important public art landmark and tourist attraction, symbolizing Domenico Modugno's deep emotional connection with his hometown."
+    "text": "The Monumento a Domenico Modugno is directly managed and maintained by the Comune di Polignano a Mare. As a public cultural heritage of Polignano a Mare, this monument is a permanent tribute to the famous local artist Domenico Modugno, and serves as an important public art landmark for tourism."
   }
 }

@@ -55,18 +55,6 @@ export default function Hero() {
               <span className="text-white text-sm">{t('openMaps')}</span>
             </a>
           </div>
-
-          {/* Tags */}
-          <div className="flex flex-wrap gap-2 animate-fade-in-up animation-delay-300">
-            {tags.map((tag) => (
-              <span
-                key={tag}
-                className="text-xs uppercase tracking-widest text-white/70 border border-white/20 rounded-full px-3 py-1"
-              >
-                {t(`tags.${tag}`)}
-              </span>
-            ))}
-          </div>
         </div>
       </div>
 

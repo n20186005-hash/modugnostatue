@@ -5,7 +5,7 @@ export default function Intro() {
   const tOff = useTranslations('officialManagement');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
-  const keywords: string[] = messages?.intro?.keywords?.items || [];
+  const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
 
   return (
     <section className="section-padding">
@@ -64,23 +64,16 @@ export default function Intro() {
               className="font-display text-xl font-semibold mb-4"
               style={{ color: 'var(--text-primary)' }}
             >
-              {t('keywords.title')}
+              {t('alsoKnownAs.title')}
             </h3>
-            <div className="flex flex-wrap gap-2">
-              {keywords.map((keyword, i) => (
-                <span
-                  key={i}
-                  className="text-sm px-3 py-1.5 rounded-full"
-                  style={{
-                    background: 'var(--tag-bg)',
-                    color: 'var(--tag-text)',
-                    border: '1px solid var(--border-color)'
-                  }}
-                >
-                  {keyword}
-                </span>
+            <ul className="space-y-3">
+              {alsoKnownAsItems.map((keyword, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />
+                  <span style={{ color: 'var(--text-secondary)' }}>{keyword}</span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </div>
       </div>

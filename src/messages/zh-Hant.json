@@ -16,29 +16,11 @@
     "rating": "4.8/5",
     "reviewCount": "11,183 則評價",
     "hours": "全天候開放",
-    "openMaps": "在 Google Maps 中開啟",
-    "tags": {
-      "statua": "雕像",
-      "volare": "Volare",
-      "mare": "海洋",
-      "polignano": "波利尼亞諾",
-      "musica": "音樂",
-      "fotografia": "攝影"
-    }
+    "openMaps": "查看位置"
   },
   "intro": {
     "title": "認識紀念碑",
-    "description": "這座青銅紀念碑矗立在波利尼亞諾濱海（Polignano a Mare）的海濱長廊上，向義大利傳奇歌手多梅尼科·莫杜尼奧致敬——他以一曲《Volare》（在藍天中翱翔）風靡全球。雕像展現他面朝亞得里亞海張開雙臂的姿態，這個動作已成為這座城市的象徵。 歡迎遊客前來感受 Polignano a Mare 的魅力。",
-    "keywords": {
-      "title": "相關關鍵字",
-      "items": [
-        "Monumento a Domenico Modugno",
-        "Modugno Statue",
-        "The Volare Statue",
-        "Polignano a Mare",
-        "《Volare》"
-      ]
-    },
+    "description": "這座青銅紀念碑矗立在波利尼亞諾濱海（Polignano a Mare）的海濱長廊上，向義大利傳奇歌手多梅尼科·莫杜尼奧致敬——他以一曲《Volare》（在藍天中翱翔）風靡全球。歡迎遊客前來參觀這座公共紀念碑，感受 Domenico Modugno 與家鄉的深厚情感。",
     "visitGuide": {
       "title": "參觀指南",
       "items": [
@@ -46,6 +28,15 @@
         "無需門票，無需預約。",
         "建議在 Lungomare Domenico Modugno 海濱步道參觀，特別推薦日落或傍晚時分前來。",
         "欣賞雕像面向小鎮、背向大海的經典姿態，以及周邊 Lama Monachile 海灣和 Polignano a Mare 老城景觀。"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "也稱為（Also Known As）",
+      "items": [
+        "Monumento a Domenico Modugno",
+        "Modugno Statue",
+        "The Volare Statue",
+        "Polignano a Mare 海濱標誌性雕塑"
       ]
     }
   },
@@ -85,12 +76,12 @@
       "拉馬莫納奇萊 — 標誌性海灘",
       "青銅紀念碑細節"
     ],
-    "viewAll": "在 Google Maps 查看所有照片"
+    "viewAll": "在 Google Maps 查看位置"
   },
   "reviews": {
     "title": "真實遊客評價",
-    "declaration": "遊客真實反饋可透過 Google Maps 查看。",
-    "moreReviews": "在 Google Maps 查看所有評價",
+    "declaration": "位置與評論資訊可透過 Google Maps 查看（外部連結）。",
+    "moreReviews": "在 Google Maps 查看位置",
     "items": [
       {
         "name": "Marco Bianchi",
@@ -145,7 +136,7 @@
   "mapSection": {
     "title": "如何前往",
     "subtitle": "Lungomare Domenico Modugno, 70044 Polignano a Mare BA, 義大利",
-    "openMaps": "在 Google Maps 中開啟"
+    "openMaps": "在 Google Maps 中查看"
   },
   "footer": {
     "rights": "© 2026 Polignano a Mare 市鎮政府 · 版權所有。最後更新：2026年3月",
@@ -164,20 +155,20 @@
     "lastUpdated": "最後更新：2026年3月",
     "sections": [
       {
-        "heading": "官方管理",
-        "content": "本網站由 Polignano a Mare 市鎮政府管理和營運。"
+        "heading": "官方資訊平台",
+        "content": "本網站是 Polignano a Mare 市鎮政府的官方資訊平台。"
       },
       {
         "heading": "資訊收集",
-        "content": "我們承諾遵守 GDPR 及義大利資料保護法規以保護您的隱私。本網站作為公共服務平台，通常不會主動收集使用者的個人識別資訊。透過伺服器日誌和分析工具，我們可能會收集非個人識別資訊，如瀏覽器類型、存取時間和頁面瀏覽記錄。"
+        "content": "作為公共服務平台，我們承諾遵守 GDPR 及義大利資料保護法規以保護您的隱私。我們通常不會主動收集使用者的個人識別資訊。透過伺服器日誌和分析工具，我們可能會收集非個人識別資訊，如瀏覽器類型、存取時間和頁面瀏覽記錄。"
       },
       {
         "heading": "Cookie 的使用",
         "content": "為了提供更好的使用者體驗並了解網站的使用情況，我們可能會使用 Cookie。這些 Cookie 用於記住使用者偏好和分析網站流量。您可以在瀏覽器中調整 Cookie 設定。"
       },
       {
-        "heading": "第三方服務",
-        "content": "本網站整合了第三方服務（如 Google Maps 用於地理資料和評論）。這些服務可能會根據其自身的隱私權政策收集資訊。"
+        "heading": "第三方服務披露",
+        "content": "本網站整合了第三方服務（如 Google Maps 用於地理資料）。這些外部服務根據其自身的隱私權政策運作。"
       }
     ]
   },
@@ -186,8 +177,8 @@
     "lastUpdated": "最後更新：2026年3月",
     "sections": [
       {
-        "heading": "官方管理",
-        "content": "本網站由 Polignano a Mare 市鎮政府管理和營運。"
+        "heading": "官方資訊平台",
+        "content": "本網站是 Polignano a Mare 市鎮政府的官方資訊平台。"
       },
       {
         "heading": "接受條款",
@@ -224,6 +215,6 @@
   },
   "officialManagement": {
     "title": "官方管理資訊",
-    "text": "Monumento a Domenico Modugno 由 Polignano a Mare 市鎮政府（Comune di Polignano a Mare）管理和維護。作為獻給 Polignano a Mare 著名兒子的文化遺產，該紀念碑是當地重要的公共藝術地標和旅遊景點，象徵著 Domenico Modugno 與家鄉的深厚情感。"
+    "text": "Monumento a Domenico Modugno 由 Polignano a Mare 市鎮政府（Comune di Polignano a Mare）直接管理和維護。作為 Polignano a Mare 的公共文化遺產，該紀念碑是獻給本地著名藝術家 Domenico Modugno 的永久致敬，也是當地重要的旅遊公共藝術地標。"
   }
 }
