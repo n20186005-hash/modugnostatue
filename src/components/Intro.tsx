@@ -10,16 +10,6 @@ export default function Intro() {
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
-        {/* Official Management Banner */}
-        <div className="mb-12 p-6 sm:p-8 rounded-xl border border-[var(--accent)]" style={{ background: 'var(--bg-tertiary)' }}>
-          <h2 className="font-display text-2xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
-            {tOff('title')}
-          </h2>
-          <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-            {tOff('text')}
-          </p>
-        </div>
-
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}
@@ -75,6 +65,15 @@ export default function Intro() {
               ))}
             </ul>
           </div>
+        </div>
+
+        <div className="mt-12 p-6 sm:p-8 rounded-xl border border-[var(--accent)]" style={{ background: 'var(--bg-tertiary)' }}>
+          <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
+            {tOff('title')}
+          </h2>
+          <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+            {tOff('text')}
+          </p>
         </div>
       </div>
     </section>

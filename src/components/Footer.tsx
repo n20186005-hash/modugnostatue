@@ -14,9 +14,12 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-start gap-8 mb-8">
           <div className="max-w-md">
-            <h3 className="font-display text-lg font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
-              {t('officialResourcesTitle')}
+            <h3 className="font-display text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
+              Monumento a Domenico Modugno
             </h3>
+            <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
+              {t('officialResourcesTitle')}
+            </p>
             <div className="flex flex-col gap-2">
               <a href="https://www.comune.polignanoamare.ba.it/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
                 {t('officialLinks.comune')}
