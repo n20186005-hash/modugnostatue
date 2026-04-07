@@ -1,8 +1,9 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 
 export default function InfoSection() {
   const t = useTranslations('knowledge');
-  const sections = t.raw('sections') as Array<{ id: string; title: string; content: string }>;
+  const messages = useMessages() as any;
+  const sections = (messages?.knowledge?.sections || []) as Array<{ id: string; title: string; content: string }>;
 
   return (
     <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>

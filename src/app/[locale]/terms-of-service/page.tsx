@@ -1,5 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -33,8 +33,9 @@ function TermsContent() {
   const t = useTranslations('terms');
   const ht = useTranslations('header');
   const locale = useLocale();
+  const messages = useMessages() as any;
   const homeHref = locale === 'it' ? '/' : `/${locale}`;
-  const sections = t.raw('sections') as Array<{ heading: string; content: string }>;
+  const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>

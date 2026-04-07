@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 
 function Stars({ count }: { count: number }) {
   return (
@@ -21,7 +21,8 @@ function Stars({ count }: { count: number }) {
 
 export default function Reviews() {
   const t = useTranslations('reviews');
-  const items = t.raw('items') as Array<{
+  const messages = useMessages() as any;
+  const items = (messages?.reviews?.items || []) as Array<{
     name: string;
     date: string;
     rating: number;
