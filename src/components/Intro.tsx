@@ -1,10 +1,11 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 
 export default function Intro() {
   const t = useTranslations('intro');
   const tOff = useTranslations('officialManagement');
-  const items: string[] = t.raw('visitGuide.items');
-  const keywords: string[] = t.raw('keywords.items');
+  const messages = useMessages() as any;
+  const items: string[] = messages?.intro?.visitGuide?.items || [];
+  const keywords: string[] = messages?.intro?.keywords?.items || [];
 
   return (
     <section className="section-padding">
