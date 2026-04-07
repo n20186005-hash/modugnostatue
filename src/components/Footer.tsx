@@ -13,13 +13,23 @@ export default function Footer() {
     >
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-start gap-8 mb-8">
-          <div>
-            <h3 className="font-display text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
-              Monumento a Domenico Modugno
+          <div className="max-w-md">
+            <h3 className="font-display text-lg font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
+              {t('officialResourcesTitle')}
             </h3>
-            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{t('disclaimer')}</p>
+            <div className="flex flex-col gap-2">
+              <a href="https://www.comune.polignanoamare.ba.it/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.comune')}
+              </a>
+              <a href="https://www.viaggiareinpuglia.it/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.puglia')}
+              </a>
+              <a href="https://www.italia.it/en/puglia/bari/belvedere-modugno" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.italia')}
+              </a>
+            </div>
           </div>
-          <div className="flex flex-wrap gap-4 text-sm">
+          <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
             <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
               {t('privacy')}
             </a>
@@ -36,12 +46,6 @@ export default function Footer() {
           className="pt-6 text-center text-sm"
           style={{ borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)' }}
         >
-          <p className="mb-2">
-            {t('support')}{' '}
-            <a href="mailto:claritleonelmnicol@gmail.com" style={{ color: 'var(--accent)' }}>
-              claritleonelmnicol@gmail.com
-            </a>
-          </p>
           <p>{t('rights')}</p>
         </div>
       </div>

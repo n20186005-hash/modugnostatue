@@ -28,17 +28,7 @@
   },
   "intro": {
     "title": "認識紀念碑",
-    "description": "這座青銅紀念碑矗立在波利尼亞諾濱海（Polignano a Mare）的海濱長廊上，向義大利傳奇歌手多梅尼科·莫杜尼奧致敬——他以一曲《Volare》（在藍天中翱翔）風靡全球。雕像展現他面朝亞得里亞海張開雙臂的姿態，這個動作已成為這座城市的象徵。",
-    "highlights": {
-      "title": "重點亮點",
-      "items": [
-        "攝影地標 — 波利尼亞諾濱海最受歡迎的打卡點",
-        "全年免費開放，24小時皆可造訪",
-        "懸崖峭壁與亞得里亞海的壯闊景色",
-        "步行即可抵達舊城區和著名的拉馬莫納奇萊海灘",
-        "致敬《Volare》歌手，義大利音樂文化瑰寶"
-      ]
-    },
+    "description": "這座青銅紀念碑矗立在波利尼亞諾濱海（Polignano a Mare）的海濱長廊上，向義大利傳奇歌手多梅尼科·莫杜尼奧致敬——他以一曲《Volare》（在藍天中翱翔）風靡全球。雕像展現他面朝亞得里亞海張開雙臂的姿態，這個動作已成為這座城市的象徵。 歡迎遊客前來感受 Polignano a Mare 的魅力。",
     "keywords": {
       "title": "相關關鍵字",
       "items": [
@@ -48,6 +38,15 @@
         "Polignano a Mare",
         "《Volare》"
       ]
+    },
+    "visitGuide": {
+      "title": "參觀指南",
+      "items": [
+        "Monumento a Domenico Modugno 是免費對外開放的公共紀念碑（Accesso gratuito），全天24小時可參觀。",
+        "無需門票，無需預約。",
+        "建議在 Lungomare Domenico Modugno 海濱步道參觀，特別推薦日落或傍晚時分前來。",
+        "欣賞雕像面向小鎮、背向大海的經典姿態，以及周邊 Lama Monachile 海灣和 Polignano a Mare 老城景觀。"
+      ]
     }
   },
   "knowledge": {
@@ -56,7 +55,7 @@
       {
         "id": "monumento",
         "title": "Monumento a Domenico Modugno",
-        "content": "這座青銅紀念碑由雕塑家 Hermann Mejer 創作，於2009年5月31日揭幕。它不僅是一件藝術品，更是當地人對這位偉大藝術家的致敬。雕像高約3米，生動捕捉了多梅尼科·莫杜尼奧在舞台上充滿激情的表演瞬間。"
+        "content": "本紀念碑由 Polignano a Mare 市鎮政府管理，這座青銅雕像是獻給偉大藝術家 Domenico Modugno 的永久致敬。 這座青銅紀念碑由雕塑家 Hermann Mejer 創作，於2009年5月31日揭幕。它不僅是一件藝術品，更是當地人對這位偉大藝術家的致敬。雕像高約3米，生動捕捉了多梅尼科·莫杜尼奧在舞台上充滿激情的表演瞬間。"
       },
       {
         "id": "statue",
@@ -86,12 +85,11 @@
       "拉馬莫納奇萊 — 標誌性海灘",
       "青銅紀念碑細節"
     ],
-    "photoCredit": "照片來源：Google Maps（最後更新：2026年）",
     "viewAll": "在 Google Maps 查看所有照片"
   },
   "reviews": {
     "title": "真實遊客評價",
-    "declaration": "評分和評價來自 Google 地圖（最後更新：2026年）。我們僅展示經過驗證的精選高分評價。如需查看所有完整和最新評價，請點擊下方連結。",
+    "declaration": "遊客真實反饋可透過 Google Maps 查看。",
     "moreReviews": "在 Google Maps 查看所有評價",
     "items": [
       {
@@ -149,40 +147,37 @@
     "subtitle": "Lungomare Domenico Modugno, 70044 Polignano a Mare BA, 義大利",
     "openMaps": "在 Google Maps 中開啟"
   },
-  "sources": {
-    "title": "數據與參考資料",
-    "text": "本網站為獨立的第三方旅遊資訊網站。資訊來源為公開資源（旅遊局和維基百科）以及 Google Maps 的基本數據。",
-    "googleMaps": "Google Maps — 評分、評價與地理數據",
-    "unsplash": "Unsplash — 相簿中使用的照片",
-    "wikipedia": "維基百科 — 歷史與人物傳記資訊"
-  },
   "footer": {
-    "support": "如需本網站的技術支援，請聯繫：",
-    "rights": "© 2026 Monumento a Domenico Modugno · 保留所有權利。",
+    "rights": "© 2026 Polignano a Mare 市鎮政府 · 版權所有。最後更新：2026年3月",
     "privacy": "隱私權政策",
     "terms": "服務條款",
     "cookies": "Cookie 設定",
-    "disclaimer": "獨立旅遊資訊網站 — 與政府機構無關。"
+    "officialResourcesTitle": "官方資源與更多資訊",
+    "officialLinks": {
+      "comune": "Polignano a Mare 市鎮官方旅遊網站 (Comune di Polignano a Mare)",
+      "puglia": "普利亞大區官方旅遊網站 (Puglia Promozione)",
+      "italia": "義大利國家旅遊官網 (Italia.it)"
+    }
   },
   "privacy": {
     "title": "隱私權政策",
     "lastUpdated": "最後更新：2026年3月",
     "sections": [
       {
-        "heading": "數據收集",
-        "content": "本網站透過分析Cookie收集最少的瀏覽數據，以了解流量模式。除非您直接聯繫我們，否則我們不會收集個人身份資訊。"
+        "heading": "官方管理",
+        "content": "本網站由 Polignano a Mare 市鎮政府管理和營運。"
       },
       {
-        "heading": "Cookie 使用",
-        "content": "我們使用必要的Cookie來實現網站功能（語言偏好、主題偏好），以及可選的分析Cookie。您可以在Cookie設定頁面管理偏好。"
+        "heading": "資訊收集",
+        "content": "我們承諾遵守 GDPR 及義大利資料保護法規以保護您的隱私。本網站作為公共服務平台，通常不會主動收集使用者的個人識別資訊。透過伺服器日誌和分析工具，我們可能會收集非個人識別資訊，如瀏覽器類型、存取時間和頁面瀏覽記錄。"
+      },
+      {
+        "heading": "Cookie 的使用",
+        "content": "為了提供更好的使用者體驗並了解網站的使用情況，我們可能會使用 Cookie。這些 Cookie 用於記住使用者偏好和分析網站流量。您可以在瀏覽器中調整 Cookie 設定。"
       },
       {
         "heading": "第三方服務",
-        "content": "本網站整合了Google Maps地圖服務和Unsplash照片服務。這些服務可能會根據其各自的隱私權政策收集數據。"
-      },
-      {
-        "heading": "聯繫方式",
-        "content": "如有隱私相關問題，請聯繫：claritleonelmnicol@gmail.com"
+        "content": "本網站整合了第三方服務（如 Google Maps 用於地理資料和評論）。這些服務可能會根據其自身的隱私權政策收集資訊。"
       }
     ]
   },
@@ -191,26 +186,26 @@
     "lastUpdated": "最後更新：2026年3月",
     "sections": [
       {
-        "heading": "條款接受",
-        "content": "訪問本網站即表示您同意受這些服務條款的約束。如果您不同意任何條款，請勿訪問本網站。"
+        "heading": "官方管理",
+        "content": "本網站由 Polignano a Mare 市鎮政府管理和營運。"
       },
       {
-        "heading": "內容準確性",
-        "content": "我們致力於提供準確和最新的資訊。但我們不保證內容的完整性或準確性。開放時間、條件和訪問詳情可能會在未經通知的情況下變更。"
+        "heading": "接受條款",
+        "content": "透過存取和使用本網站，您同意受這些服務條款的約束，這些條款規範了本公共服務平台。"
       },
       {
-        "heading": "網站使用",
-        "content": "本網站僅供資訊參考。我們與當地政府機關、旅遊局或Google Maps無任何關聯。所有商標均屬於其各自所有者。"
+        "heading": "內容使用",
+        "content": "本網站提供的資訊為官方公共資訊。雖然我們努力維持準確和最新的資訊，但使用者應參考官方市政公告以獲取最新更新。"
       },
       {
-        "heading": "責任限制",
-        "content": "我們不對基於本網站提供的資訊所做出的任何決定承擔責任。造訪前請務必向官方來源確認詳細資訊。"
+        "heading": "外部連結免責聲明",
+        "content": "本網站包含指向 Google Maps 等外部服務的連結。我們不對這些外部平台的內容或隱私做法負責。"
       }
     ]
   },
   "cookieSettings": {
     "title": "Cookie 設定",
-    "description": "管理您的Cookie偏好設定。必要Cookie是網站運作所需的，無法關閉。",
+    "description": "管理您的 Cookie 偏好。網站運作需要絕對必要的 Cookie。本網站也可能使用與 Google Maps 等第三方服務相關的 Cookie。",
     "essential": {
       "title": "必要 Cookie",
       "description": "網站基本功能所需：語言偏好、主題偏好、工作階段管理。",
@@ -226,5 +221,9 @@
     },
     "save": "儲存偏好設定",
     "saved": "偏好設定已儲存！"
+  },
+  "officialManagement": {
+    "title": "官方管理資訊",
+    "text": "Monumento a Domenico Modugno 由 Polignano a Mare 市鎮政府（Comune di Polignano a Mare）管理和維護。作為獻給 Polignano a Mare 著名兒子的文化遺產，該紀念碑是當地重要的公共藝術地標和旅遊景點，象徵著 Domenico Modugno 與家鄉的深厚情感。"
   }
 }

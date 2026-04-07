@@ -2,12 +2,23 @@ import { useTranslations } from 'next-intl';
 
 export default function Intro() {
   const t = useTranslations('intro');
-  const items: string[] = t.raw('highlights.items');
+  const tOff = useTranslations('officialManagement');
+  const items: string[] = t.raw('visitGuide.items');
   const keywords: string[] = t.raw('keywords.items');
 
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
+        {/* Official Management Banner */}
+        <div className="mb-12 p-6 sm:p-8 rounded-xl border border-[var(--accent)]" style={{ background: 'var(--bg-tertiary)' }}>
+          <h2 className="font-display text-2xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
+            {tOff('title')}
+          </h2>
+          <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+            {tOff('text')}
+          </p>
+        </div>
+
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}
@@ -32,7 +43,7 @@ export default function Intro() {
               className="font-display text-xl font-semibold mb-4"
               style={{ color: 'var(--text-primary)' }}
             >
-              {t('highlights.title')}
+              {t('visitGuide.title')}
             </h3>
             <ul className="space-y-3">
               {items.map((item, i) => (

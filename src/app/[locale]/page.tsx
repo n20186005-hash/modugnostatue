@@ -6,7 +6,6 @@ import InfoSection from '@/components/InfoSection';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
-import Sources from '@/components/Sources';
 import Footer from '@/components/Footer';
 
 export default async function HomePage({
@@ -27,7 +26,6 @@ export default async function HomePage({
         <Gallery />
         <Reviews />
         <MapEmbed />
-        <Sources />
       </main>
       <Footer />
     </>

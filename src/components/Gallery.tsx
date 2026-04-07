@@ -96,9 +96,6 @@ export default function Gallery() {
             </button>
 
             <div className="flex justify-center mt-6 gap-4 items-center">
-              <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                {t('photoCredit')}
-              </span>
               <a
                 href="https://maps.app.goo.gl/mbXzKhYc9ii9TwWM8"
                 target="_blank"
