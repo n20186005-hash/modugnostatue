@@ -48,17 +48,10 @@ export default async function BlogIndexPage({
             
             {/* Article 1: One Day Tour */}
             <Link href={`/${locale}/blog/one-day-tour-guide`} className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-700 flex flex-col h-full cursor-pointer">
-              <div className="relative h-52 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1516483638261-f40af5ff1f25?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Polignano a Mare Coastline"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-[#1e3a54] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              <div className="p-6 flex flex-col flex-grow">
+                <div className="mb-4 inline-block bg-slate-100 dark:bg-slate-700 text-[#1e3a54] dark:text-[#f0b429] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider self-start">
                   {isEnglish ? 'Guide' : isFrench ? 'Guide' : isItalian ? 'Guida' : '旅遊指南'}
                 </div>
-              </div>
-              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="font-display text-xl font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-[#f0b429] transition-colors line-clamp-2">
                   {isEnglish ? 'Polignano a Mare, Italy｜In-depth One-Day Tour Guide' : isFrench ? 'Polignano a Mare, Italie｜Visite approfondie d’une journée' : isItalian ? 'Polignano a Mare｜Guida turistica approfondita di un giorno' : '義大利濱海波利尼亞諾｜一日深度遊攻略'}
                 </h3>
@@ -80,17 +73,10 @@ export default async function BlogIndexPage({
 
             {/* Article 2: Domenico Modugno */}
             <Link href={`/${locale}/blog/monumento-a-domenico-modugno`} className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-700 flex flex-col h-full cursor-pointer">
-              <div className="relative h-52 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1692345576261-12c8b0567fce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Domenico Modugno Statue"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-[#1e3a54] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              <div className="p-6 flex flex-col flex-grow">
+                <div className="mb-4 inline-block bg-slate-100 dark:bg-slate-700 text-[#1e3a54] dark:text-[#f0b429] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider self-start">
                   {isEnglish ? 'Culture' : isFrench ? 'Culture' : isItalian ? 'Cultura' : '文化與歷史'}
                 </div>
-              </div>
-              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="font-display text-xl font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-[#f0b429] transition-colors line-clamp-2">
                   {isEnglish ? 'The Story Behind Monumento a Domenico Modugno' : isFrench ? 'L\'histoire derrière le Monumento a Domenico Modugno' : isItalian ? 'La storia dietro al Monumento a Domenico Modugno' : '多梅尼科·莫杜尼奧雕像背後的故事'}
                 </h3>

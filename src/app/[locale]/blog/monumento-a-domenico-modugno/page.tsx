@@ -109,15 +109,17 @@ export default async function BlogPostDomenicoModugno({
               </p>
 
               {/* --- AD MODULE INSERTED INTO CONTENT --- */}
-              <div className="my-10 w-full flex flex-col items-center border-y border-slate-100 dark:border-slate-800 py-6">
+              <div className="my-10 w-full flex flex-col items-center border-y border-slate-100 dark:border-slate-800 py-6 overflow-hidden">
                 <span className="text-[10px] text-slate-400 uppercase tracking-widest mb-2">Advertisement</span>
-                <div className="w-full max-w-[728px] h-[90px] bg-slate-100 dark:bg-slate-800 rounded-lg flex items-center justify-center overflow-hidden">
-                  <iframe
-                    src="https://www.trip.com/partners/ad/SB15306370?Allianceid=7974128&SID=300882170&trip_sub1=blog_mid"
-                    style={{ width: '728px', height: '90px', border: 'none' }}
-                    scrolling="no"
-                    title="Trip.com Ad"
-                  />
+                <div className="w-full max-w-[728px] overflow-x-auto flex justify-center">
+                  <div style={{ minWidth: '728px', height: '90px' }}>
+                    <iframe
+                      src="https://www.trip.com/partners/ad/SB15306370?Allianceid=7974128&SID=300882170&trip_sub1=blog_mid"
+                      style={{ width: '728px', height: '90px', border: 'none' }}
+                      scrolling="no"
+                      title="Trip.com Ad"
+                    />
+                  </div>
                 </div>
               </div>
               {/* --------------------------------------- */}
@@ -360,26 +362,26 @@ export default async function BlogPostDomenicoModugno({
                 <div className="space-y-5">
                   {/* Rec Item 1 */}
                   <a href="https://www.trip.com/t/MyfkYfsEEU2" target="_blank" rel="noopener noreferrer" className="group flex gap-4 items-center">
-                    <img src="https://images.unsplash.com/photo-1516483638261-f40af5ff1f25?auto=format&fit=crop&w=150&q=80" alt="Cave Tour" className="w-20 h-20 rounded-lg object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity" />
+                    <img src="https://ak-d.tripcdn.com/images/0101712000dl8yewn37F6_W_800_0_R5_Q90.jpg" alt="Cave Tour" className="w-20 h-20 rounded-lg object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity" />
                     <div>
                       <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1">
-                        {isEnglish ? 'Eco Boat Tour and Cave Exploration' : isFrench ? 'Excursion écologique en bateau et grottes' : isItalian ? 'Tour ecologico in barca ed esplorazione delle grotte' : '生態遊船與洞穴探索'}
+                        {isEnglish ? 'Polignano a Mare Cave Tour with Prosecco and Apulian Focaccia' : isFrench ? 'Visite des grottes de Polignano a Mare avec Prosecco et Focaccia' : isItalian ? 'Tour delle grotte di Polignano a Mare con Prosecco e Focaccia pugliese' : '波利尼亞諾洞穴遊船之旅 (含普西可酒與普利亞佛卡夏)'}
                       </h4>
                       <p className="text-xs text-slate-500 line-clamp-2">
-                        {isEnglish ? 'Explore stunning sea caves by boat and experience snorkeling in crystal-clear waters.' : isFrench ? 'Explorez d’incroyables grottes marines en bateau et faites de la plongée avec tuba.' : isItalian ? 'Esplora in barca le incredibili grotte marine e vivi lo snorkeling in acque cristalline.' : '乘船探索令人驚嘆的海蝕洞，體驗清澈海水中的浮潛。'}
+                        {isEnglish ? 'Explore the magical sea caves of Polignano a Mare on an eco-friendly boat.' : isFrench ? 'Explorez les grottes marines magiques de Polignano a Mare sur un bateau écologique.' : isItalian ? 'Esplora le magiche grotte marine di Polignano a Mare su una barca ecologica.' : '搭乘環保遊船探索波利尼亞諾的神奇海蝕洞。'}
                       </p>
                     </div>
                   </a>
                   
                   {/* Rec Item 2 */}
                   <a href="https://www.trip.com/t/xcWHkMbFEU2" target="_blank" rel="noopener noreferrer" className="group flex gap-4 items-center">
-                    <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=150&q=80" alt="Museum" className="w-20 h-20 rounded-lg object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity" />
+                    <img src="https://ak-d.tripcdn.com/images/010181200085s001402EB_W_800_0_R5_Q90.jpg" alt="Museum" className="w-20 h-20 rounded-lg object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity" />
                     <div>
                       <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1">
-                        {isEnglish ? 'Local Museums and Art' : isFrench ? 'Musées locaux et art' : isItalian ? 'Musei e arte locali' : '當地博物館與藝術'}
+                        {isEnglish ? 'Polignano a Mare Boat Tour (Max 10 People)' : isFrench ? 'Tour en bateau à Polignano a Mare (Max 10 Personnes)' : isItalian ? 'Tour in barca a Polignano a Mare (Max 10 Persone)' : '波利尼亞諾遊船之旅 (最多 10 人)'}
                       </h4>
                       <p className="text-xs text-slate-500 line-clamp-2">
-                        {isEnglish ? 'Discover the rich historical heritage and contemporary art exhibitions in the surrounding area.' : isFrench ? 'Découvrez le riche patrimoine historique et les expositions d’art contemporain.' : isItalian ? "Esplora il ricco patrimonio storico e le mostre d'arte contemporanea nei dintorni." : '探索周邊地區豐富的歷史遺產和當代藝術展覽。'}
+                        {isEnglish ? 'Enjoy a relaxing boat tour discovering the breathtaking coastline and crystal clear waters.' : isFrench ? 'Profitez d\'une excursion relaxante en bateau pour découvrir la côte à couper le souffle.' : isItalian ? "Goditi un rilassante tour in barca alla scoperta della costa mozzafiato." : '享受輕鬆的遊船之旅，探索令人驚嘆的海岸線。'}
                       </p>
                     </div>
                   </a>

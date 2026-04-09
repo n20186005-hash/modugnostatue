@@ -69,20 +69,11 @@ export default function BlogSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {posts.map((post) => (
             <Link href={`/${locale}/blog/${post.id}`} key={post.id} className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-700 flex flex-col h-full">
-              {/* Thumbnail */}
-              <div className="relative h-56 overflow-hidden">
-                <img 
-                  src={post.image} 
-                  alt={post.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-[#1e3a54] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
-                  {post.category}
-                </div>
-              </div>
-              
               {/* Content */}
               <div className="p-6 flex flex-col flex-grow">
+                <div className="mb-4 inline-block bg-slate-100 dark:bg-slate-700 text-[#1e3a54] dark:text-[#f0b429] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider self-start">
+                  {post.category}
+                </div>
                 <h3 className="font-display text-xl font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-[#f0b429] transition-colors line-clamp-2">
                   {post.title}
                 </h3>
