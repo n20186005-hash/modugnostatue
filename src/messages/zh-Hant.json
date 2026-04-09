@@ -169,6 +169,10 @@
       {
         "heading": "第三方服務披露",
         "content": "本網站整合了第三方服務（如 Google Maps 用於地理資料）。這些外部服務根據其自身的隱私權政策運作。"
+      },
+      {
+        "heading": "廣告與聯盟連結",
+        "content": "本網站顯示由第三方（如 Trip.com 攜程）提供的廣告和聯盟連結。點擊這些連結可能會導致這些第三方收集有關您互動的數據。我們無法控制這些廣告商的隱私權作法。"
       }
     ]
   },
@@ -191,12 +195,16 @@
       {
         "heading": "外部連結免責聲明",
         "content": "本網站包含指向 Google Maps 等外部服務的連結。我們不對這些外部平台的內容或隱私做法負責。"
+      },
+      {
+        "heading": "廣告與第三方內容",
+        "content": "本網站包含廣告和指向第三方服務（如 Trip.com 攜程）的連結。我們對這些第三方廣告商提供的內容、準確性或產品概不負責。您與這些廣告的任何互動均嚴格限於您與第三方之間。"
       }
     ]
   },
   "cookieSettings": {
     "title": "Cookie 設定",
-    "description": "管理您的 Cookie 偏好。網站運作需要絕對必要的 Cookie。本網站也可能使用與 Google Maps 等第三方服務相關的 Cookie。",
+    "description": "管理您的 Cookie 偏好。網站運作需要絕對必要的 Cookie。本網站也可能使用與 Google Maps 和廣告合作夥伴（如 Trip.com 攜程）等第三方服務相關的 Cookie。",
     "essential": {
       "title": "必要 Cookie",
       "description": "網站基本功能所需：語言偏好、主題偏好、工作階段管理。",
@@ -216,5 +224,70 @@
   "officialManagement": {
     "title": "官方管理資訊",
     "text": "Monumento a Domenico Modugno 由 Polignano a Mare 市鎮政府（Comune di Polignano a Mare）直接管理和維護。作為 Polignano a Mare 的公共文化遺產，該紀念碑是獻給本地著名藝術家 Domenico Modugno 的永久致敬，也是當地重要的旅遊公共藝術地標。"
+  },
+  "recommendations": {
+    "title": "探索更多",
+    "attractionsTitle": "周邊景點推薦",
+    "toursTitle": "周邊遊路線推薦",
+    "attractions": [
+      {
+        "name": "聖熱內羅珍寶博物館",
+        "url": "https://www.trip.com/t/xcWHkMbFEU2"
+      },
+      {
+        "name": "Jago Museum",
+        "url": "https://www.trip.com/t/JQ84T0dFEU2"
+      },
+      {
+        "name": "Aquarium of Naples",
+        "url": "https://www.trip.com/t/KMsEPTeFEU2"
+      },
+      {
+        "name": "大聖老楞佐教堂",
+        "url": "https://www.trip.com/t/DwQCUJfFEU2"
+      }
+    ],
+    "tours": [
+      {
+        "name": "濱海波利尼亞諾：生態遊船之旅連浮潛及洞穴探索",
+        "url": "https://www.trip.com/t/MyfkYfsEEU2"
+      },
+      {
+        "name": "濱海波利尼亞諾：遊船之旅連開胃酒",
+        "url": "https://www.trip.com/t/Su71LWvEEU2"
+      },
+      {
+        "name": "濱海波利尼亞諾：洞穴遊船之旅連開胃酒",
+        "url": "https://www.trip.com/t/4K0gR5xEEU2"
+      },
+      {
+        "name": "濱海波利尼亞諾：洞穴遊船之旅",
+        "url": "https://www.trip.com/t/ybtN13CFEU2"
+      },
+      {
+        "name": "木製戈佐船之旅，享用開胃酒前往波利尼亞諾美麗海岸",
+        "url": "https://www.trip.com/t/HrlcDlyEEU2"
+      },
+      {
+        "name": "波利尼亞諾海岸及洞穴之旅：乘船暢遊、暢飲、游泳、音樂與歡樂時光",
+        "url": "https://www.trip.com/t/lQoBLj1FEU2"
+      },
+      {
+        "name": "莫諾波利：專享共享船遊",
+        "url": "https://www.trip.com/t/rbct9O4FEU2"
+      },
+      {
+        "name": "濱海波利尼亞諾：郵輪之旅配普羅賽克氣泡酒",
+        "url": "https://www.trip.com/t/6hV3TK7FEU2"
+      },
+      {
+        "name": "從巴里出發：乘船遊覽及濱海波利尼亞諾自由活動時間",
+        "url": "https://www.trip.com/t/m2FkQnFFEU2"
+      },
+      {
+        "name": "佩斯基奇出發：特雷米蒂群島往返渡輪",
+        "url": "https://www.trip.com/t/U97GaWIFEU2"
+      }
+    ]
   }
 }

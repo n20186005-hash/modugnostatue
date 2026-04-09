@@ -169,6 +169,10 @@
       {
         "heading": "Divulgation des Services Tiers",
         "content": "Ce site intègre des services tiers (par ex. Google Maps pour les données géographiques). Ces services externes fonctionnent selon leurs propres politiques de confidentialité."
+      },
+      {
+        "heading": "Publicité et Liens d'Affiliation",
+        "content": "Ce site web affiche des publicités et des liens d'affiliation fournis par des tiers, tels que Trip.com. En cliquant sur ces liens, ces tiers peuvent collecter des données sur votre interaction. Nous n'avons aucun contrôle sur les pratiques de confidentialité de ces annonceurs."
       }
     ]
   },
@@ -191,12 +195,16 @@
       {
         "heading": "Divulgation des Liens Externes",
         "content": "Ce site contient des liens vers des services externes comme Google Maps. Nous ne sommes pas responsables du contenu ou des pratiques de confidentialité de ces plateformes externes."
+      },
+      {
+        "heading": "Publicité et Contenu Tiers",
+        "content": "Ce site web contient des publicités et des liens vers des services tiers (par ex., Trip.com). Nous ne sommes pas responsables du contenu, de l'exactitude ou des produits proposés par ces annonceurs tiers. Toute interaction avec ces publicités se fait strictement entre vous et le tiers."
       }
     ]
   },
   "cookieSettings": {
     "title": "Paramètres des Cookies",
-    "description": "Gérez vos préférences en matière de cookies. Les cookies strictement nécessaires sont requis pour le fonctionnement du site. Ce site peut également utiliser des cookies liés à des services tiers comme Google Maps.",
+    "description": "Gérez vos préférences en matière de cookies. Les cookies strictement nécessaires sont requis pour le fonctionnement du site. Ce site peut également utiliser des cookies liés à des services tiers comme Google Maps et des partenaires publicitaires (par ex., Trip.com).",
     "essential": {
       "title": "Cookies Strictement Nécessaires",
       "description": "Nécessaires au fonctionnement de base du site : préférence de langue, préférence de thème, gestion de session.",
@@ -216,5 +224,70 @@
   "officialManagement": {
     "title": "Gestion Officielle",
     "text": "Le Monumento a Domenico Modugno est directement géré et entretenu par la Comune di Polignano a Mare. En tant que patrimoine culturel public de Polignano a Mare, ce monument est un hommage permanent au célèbre artiste local Domenico Modugno et constitue un repère important de l'art public pour le tourisme."
+  },
+  "recommendations": {
+    "title": "Découvrir Plus",
+    "attractionsTitle": "Attractions à Proximité",
+    "toursTitle": "Visites et Activités Recommandées",
+    "attractions": [
+      {
+        "name": "Musée du Trésor de San Gennaro",
+        "url": "https://www.trip.com/t/xcWHkMbFEU2"
+      },
+      {
+        "name": "Jago Museum",
+        "url": "https://www.trip.com/t/JQ84T0dFEU2"
+      },
+      {
+        "name": "Aquarium de Naples",
+        "url": "https://www.trip.com/t/KMsEPTeFEU2"
+      },
+      {
+        "name": "San Lorenzo Maggiore",
+        "url": "https://www.trip.com/t/DwQCUJfFEU2"
+      }
+    ],
+    "tours": [
+      {
+        "name": "Polignano a Mare : Excursion en Éco-Bateau avec Snorkeling et Exploration de Grottes",
+        "url": "https://www.trip.com/t/MyfkYfsEEU2"
+      },
+      {
+        "name": "Polignano a Mare : Excursion en Bateau avec Apéritif",
+        "url": "https://www.trip.com/t/Su71LWvEEU2"
+      },
+      {
+        "name": "Polignano a Mare : Visite des Grottes en Bateau avec Apéritif",
+        "url": "https://www.trip.com/t/4K0gR5xEEU2"
+      },
+      {
+        "name": "Polignano a Mare : Visite des Grottes en Bateau",
+        "url": "https://www.trip.com/t/ybtN13CFEU2"
+      },
+      {
+        "name": "Excursion en Bateau Gozzo en Bois avec Apéritif le long de la Côte de Polignano",
+        "url": "https://www.trip.com/t/HrlcDlyEEU2"
+      },
+      {
+        "name": "Excursion sur la Côte et les Grottes de Polignano : Bateau, Boissons, Baignade, Musique et Happy Hour",
+        "url": "https://www.trip.com/t/lQoBLj1FEU2"
+      },
+      {
+        "name": "Monopoli : Excursion Exclusive en Bateau Partagé",
+        "url": "https://www.trip.com/t/rbct9O4FEU2"
+      },
+      {
+        "name": "Polignano a Mare : Croisière avec Prosecco",
+        "url": "https://www.trip.com/t/6hV3TK7FEU2"
+      },
+      {
+        "name": "De Bari : Excursion en Bateau et Temps Libre à Polignano a Mare",
+        "url": "https://www.trip.com/t/m2FkQnFFEU2"
+      },
+      {
+        "name": "De Peschici : Ferry Aller-Retour pour les Îles Tremiti",
+        "url": "https://www.trip.com/t/U97GaWIFEU2"
+      }
+    ]
   }
 }

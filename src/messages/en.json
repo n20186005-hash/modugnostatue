@@ -169,6 +169,10 @@
       {
         "heading": "Third-Party Services Disclosure",
         "content": "This site integrates third-party services (e.g., Google Maps for geographical data). These external services operate under their own privacy policies."
+      },
+      {
+        "heading": "Advertising and Affiliate Links",
+        "content": "This website displays advertisements and affiliate links provided by third parties, such as Trip.com. Clicking on these links may result in these third parties collecting data about your interaction. We do not have control over the privacy practices of these advertisers."
       }
     ]
   },
@@ -191,12 +195,16 @@
       {
         "heading": "External Links Disclosure",
         "content": "This site contains links to external services like Google Maps. We are not responsible for the content or privacy practices of these external platforms."
+      },
+      {
+        "heading": "Advertising and Third-Party Content",
+        "content": "This website contains advertisements and links to third-party services (e.g., Trip.com). We are not responsible for the content, accuracy, or products offered by these third-party advertisers. Any interaction with these advertisements is strictly between you and the third party."
       }
     ]
   },
   "cookieSettings": {
     "title": "Cookie Settings",
-    "description": "Manage your cookie preferences. Strictly necessary cookies are required for the website to function. This site may also use cookies related to third-party services like Google Maps.",
+    "description": "Manage your cookie preferences. Strictly necessary cookies are required for the website to function. This site may also use cookies related to third-party services like Google Maps and advertising partners (e.g., Trip.com).",
     "essential": {
       "title": "Strictly Necessary Cookies",
       "description": "Required for basic website functionality: language preference, theme preference, session management.",
@@ -216,5 +224,70 @@
   "officialManagement": {
     "title": "Official Management",
     "text": "The Monumento a Domenico Modugno is directly managed and maintained by the Comune di Polignano a Mare. As a public cultural heritage of Polignano a Mare, this monument is a permanent tribute to the famous local artist Domenico Modugno, and serves as an important public art landmark for tourism."
+  },
+  "recommendations": {
+    "title": "Discover More",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Tours & Activities",
+    "attractions": [
+      {
+        "name": "Museum of the Treasure of San Gennaro",
+        "url": "https://www.trip.com/t/xcWHkMbFEU2"
+      },
+      {
+        "name": "Jago Museum",
+        "url": "https://www.trip.com/t/JQ84T0dFEU2"
+      },
+      {
+        "name": "Aquarium of Naples",
+        "url": "https://www.trip.com/t/KMsEPTeFEU2"
+      },
+      {
+        "name": "San Lorenzo Maggiore",
+        "url": "https://www.trip.com/t/DwQCUJfFEU2"
+      }
+    ],
+    "tours": [
+      {
+        "name": "Polignano a Mare: Eco-Boat Tour with Snorkeling & Cave Exploration",
+        "url": "https://www.trip.com/t/MyfkYfsEEU2"
+      },
+      {
+        "name": "Polignano a Mare: Boat Tour with Aperitif",
+        "url": "https://www.trip.com/t/Su71LWvEEU2"
+      },
+      {
+        "name": "Polignano a Mare: Cave Boat Tour with Aperitif",
+        "url": "https://www.trip.com/t/4K0gR5xEEU2"
+      },
+      {
+        "name": "Polignano a Mare: Cave Boat Tour",
+        "url": "https://www.trip.com/t/ybtN13CFEU2"
+      },
+      {
+        "name": "Wooden Gozzo Boat Tour with Aperitif along Polignano Coast",
+        "url": "https://www.trip.com/t/HrlcDlyEEU2"
+      },
+      {
+        "name": "Polignano Coast & Caves Tour: Boat, Drinks, Swim, Music & Happy Hour",
+        "url": "https://www.trip.com/t/lQoBLj1FEU2"
+      },
+      {
+        "name": "Monopoli: Exclusive Shared Boat Tour",
+        "url": "https://www.trip.com/t/rbct9O4FEU2"
+      },
+      {
+        "name": "Polignano a Mare: Cruise with Prosecco",
+        "url": "https://www.trip.com/t/6hV3TK7FEU2"
+      },
+      {
+        "name": "From Bari: Boat Tour & Free Time in Polignano a Mare",
+        "url": "https://www.trip.com/t/m2FkQnFFEU2"
+      },
+      {
+        "name": "From Peschici: Round-trip Ferry to Tremiti Islands",
+        "url": "https://www.trip.com/t/U97GaWIFEU2"
+      }
+    ]
   }
 }

@@ -169,6 +169,10 @@
       {
         "heading": "Informativa sui Servizi di Terze Parti",
         "content": "Questo sito integra servizi di terze parti (es. Google Maps per dati geografici). Questi servizi esterni operano secondo le proprie politiche sulla privacy."
+      },
+      {
+        "heading": "Pubblicità e Link di Affiliazione",
+        "content": "Questo sito web mostra annunci pubblicitari e link di affiliazione forniti da terze parti, come Trip.com. Facendo clic su questi link, tali terze parti potrebbero raccogliere dati sulla tua interazione. Non abbiamo alcun controllo sulle pratiche sulla privacy di questi inserzionisti."
       }
     ]
   },
@@ -191,12 +195,16 @@
       {
         "heading": "Informativa sui Link Esterni",
         "content": "Questo sito contiene link a servizi esterni come Google Maps. Non siamo responsabili per i contenuti o le pratiche sulla privacy di queste piattaforme esterne."
+      },
+      {
+        "heading": "Pubblicità e Contenuti di Terze Parti",
+        "content": "Questo sito web contiene annunci pubblicitari e link a servizi di terze parti (es. Trip.com). Non siamo responsabili per i contenuti, l'accuratezza o i prodotti offerti da questi inserzionisti di terze parti. Qualsiasi interazione con questi annunci è strettamente tra te e la terza parte."
       }
     ]
   },
   "cookieSettings": {
     "title": "Impostazioni Cookie",
-    "description": "Gestisci le tue preferenze sui cookie. I cookie strettamente necessari sono richiesti per il funzionamento del sito web. Questo sito potrebbe utilizzare anche cookie relativi a servizi di terze parti come Google Maps.",
+    "description": "Gestisci le tue preferenze sui cookie. I cookie strettamente necessari sono richiesti per il funzionamento del sito web. Questo sito potrebbe utilizzare anche cookie relativi a servizi di terze parti come Google Maps e partner pubblicitari (es. Trip.com).",
     "essential": {
       "title": "Cookie Essenziali",
       "description": "Necessari per le funzionalità di base del sito: preferenza lingua, preferenza tema, gestione sessione.",
@@ -216,5 +224,70 @@
   "officialManagement": {
     "title": "Gestione Ufficiale",
     "text": "Il Monumento a Domenico Modugno è gestito e curato direttamente dal Comune di Polignano a Mare. Quale patrimonio culturale pubblico di Polignano a Mare, questo monumento rappresenta un omaggio permanente al celebre artista locale Domenico Modugno, costituendo un importante punto di riferimento dell'arte pubblica per il turismo."
+  },
+  "recommendations": {
+    "title": "Scopri di Più",
+    "attractionsTitle": "Attrazioni Vicine",
+    "toursTitle": "Tour e Attività Consigliati",
+    "attractions": [
+      {
+        "name": "Museo del Tesoro di San Gennaro",
+        "url": "https://www.trip.com/t/xcWHkMbFEU2"
+      },
+      {
+        "name": "Jago Museum",
+        "url": "https://www.trip.com/t/JQ84T0dFEU2"
+      },
+      {
+        "name": "Acquario di Napoli",
+        "url": "https://www.trip.com/t/KMsEPTeFEU2"
+      },
+      {
+        "name": "San Lorenzo Maggiore",
+        "url": "https://www.trip.com/t/DwQCUJfFEU2"
+      }
+    ],
+    "tours": [
+      {
+        "name": "Polignano a Mare: Tour in Eco-Barca con Snorkeling ed Esplorazione Grotte",
+        "url": "https://www.trip.com/t/MyfkYfsEEU2"
+      },
+      {
+        "name": "Polignano a Mare: Tour in Barca con Aperitivo",
+        "url": "https://www.trip.com/t/Su71LWvEEU2"
+      },
+      {
+        "name": "Polignano a Mare: Tour delle Grotte in Barca con Aperitivo",
+        "url": "https://www.trip.com/t/4K0gR5xEEU2"
+      },
+      {
+        "name": "Polignano a Mare: Tour delle Grotte in Barca",
+        "url": "https://www.trip.com/t/ybtN13CFEU2"
+      },
+      {
+        "name": "Tour in Gozzo in Legno con Aperitivo lungo la Costa di Polignano",
+        "url": "https://www.trip.com/t/HrlcDlyEEU2"
+      },
+      {
+        "name": "Tour della Costa e delle Grotte di Polignano: Barca, Drink, Nuoto, Musica e Happy Hour",
+        "url": "https://www.trip.com/t/lQoBLj1FEU2"
+      },
+      {
+        "name": "Monopoli: Esclusivo Tour in Barca Condiviso",
+        "url": "https://www.trip.com/t/rbct9O4FEU2"
+      },
+      {
+        "name": "Polignano a Mare: Crociera con Prosecco",
+        "url": "https://www.trip.com/t/6hV3TK7FEU2"
+      },
+      {
+        "name": "Da Bari: Tour in Barca e Tempo Libero a Polignano a Mare",
+        "url": "https://www.trip.com/t/m2FkQnFFEU2"
+      },
+      {
+        "name": "Da Peschici: Traghetto A/R per le Isole Tremiti",
+        "url": "https://www.trip.com/t/U97GaWIFEU2"
+      }
+    ]
   }
 }
