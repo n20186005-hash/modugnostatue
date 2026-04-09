@@ -293,21 +293,48 @@ export default async function BlogPostOneDayTour({
             </div>
 
             {/* Post Footer (Tags & Share) */}
-            <div className="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
-              <div className="flex gap-2">
-                {['Travel', 'Polignano', 'Italy', 'Guide'].map(tag => (
-                  <span key={tag} className="px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-xs rounded-full">#{tag}</span>
-                ))}
+            <div className="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col gap-6">
+              
+              {/* Top Tags & Share */}
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="flex gap-2">
+                  {['Travel', 'Polignano', 'Italy', 'Guide'].map(tag => (
+                    <span key={tag} className="px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-xs rounded-full">#{tag}</span>
+                  ))}
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-sm text-slate-500 font-medium">Share:</span>
+                  <button className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 hover:text-[#f0b429] transition-colors">
+                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                  </button>
+                  <button className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 hover:text-[#f0b429] transition-colors">
+                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                  </button>
+                </div>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="text-sm text-slate-500 font-medium">Share:</span>
-                <button className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 hover:text-[#f0b429] transition-colors">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-                </button>
-                <button className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 hover:text-[#f0b429] transition-colors">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
-                </button>
+
+              {/* Bottom Nearby Attractions Links */}
+              <div className="pt-6 border-t border-slate-100 dark:border-slate-800">
+                <h4 className="text-sm font-semibold text-slate-800 dark:text-slate-200 mb-3 flex items-center gap-2">
+                  <svg className="w-4 h-4 text-[#f0b429]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                  {isEnglish ? 'Nearby Attractions' : isFrench ? 'Attractions à proximité' : isItalian ? 'Attrazioni nelle vicinanze' : '周邊景點推薦'}
+                </h4>
+                <div className="flex flex-wrap gap-2">
+                  <a href="https://www.trip.com/t/xcWHkMbFEU2" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
+                    {isEnglish ? 'Museum of the Treasure of San Gennaro' : isFrench ? 'Musée du Trésor de San Gennaro' : isItalian ? 'Museo del Tesoro di San Gennaro' : '聖熱內羅珍寶博物館'}
+                  </a>
+                  <a href="https://www.trip.com/t/JQ84T0dFEU2" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
+                    Jago Museum
+                  </a>
+                  <a href="https://www.trip.com/t/KMsEPTeFEU2" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
+                    Aquarium of Naples
+                  </a>
+                  <a href="https://www.trip.com/t/DwQCUJfFEU2" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
+                    {isEnglish ? 'San Lorenzo Maggiore' : isFrench ? 'San Lorenzo Maggiore' : isItalian ? 'San Lorenzo Maggiore' : '大聖老楞佐教堂'}
+                  </a>
+                </div>
               </div>
+
             </div>
 
             {/* Back Button */}
@@ -351,31 +378,65 @@ export default async function BlogPostOneDayTour({
                   <svg className="w-5 h-5 text-[#f0b429]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                   {isEnglish ? 'Nearby Travel Recommendations' : isFrench ? 'Recommandations de voyage' : isItalian ? 'Raccomandazioni di viaggio' : '附近旅遊推薦'}
                 </h3>
-                <div className="space-y-5">
-                  {/* Rec Item 1 */}
-                  <a href="https://www.trip.com/t/MyfkYfsEEU2" target="_blank" rel="noopener noreferrer" className="group flex gap-4 items-center">
-                    <img src="https://ak-d.tripcdn.com/images/0101712000dl8yewn37F6_W_800_0_R5_Q90.jpg" alt="Cave Tour" className="w-20 h-20 rounded-lg object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity" />
-                    <div>
-                      <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1">
-                        {isEnglish ? 'Polignano a Mare Cave Tour with Prosecco and Apulian Focaccia' : isFrench ? 'Visite des grottes de Polignano a Mare avec Prosecco et Focaccia' : isItalian ? 'Tour delle grotte di Polignano a Mare con Prosecco e Focaccia pugliese' : '波利尼亞諾洞穴遊船之旅 (含普西可酒與普利亞佛卡夏)'}
-                      </h4>
-                      <p className="text-xs text-slate-500 line-clamp-2">
-                        {isEnglish ? 'Explore the magical sea caves of Polignano a Mare on an eco-friendly boat.' : isFrench ? 'Explorez les grottes marines magiques de Polignano a Mare sur un bateau écologique.' : isItalian ? 'Esplora le magiche grotte marine di Polignano a Mare su una barca ecologica.' : '搭乘環保遊船探索波利尼亞諾的神奇海蝕洞。'}
-                      </p>
-                    </div>
+                <div className="space-y-4">
+                  <a href="https://www.trip.com/t/MyfkYfsEEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'Polignano a Mare: Eco Boat Tour and Cave Exploration with Snorkeling' : isFrench ? 'Polignano a Mare : Excursion écologique en bateau avec plongée en apnée et exploration de grottes' : isItalian ? 'Polignano a Mare: Eco Boat Tour ed esplorazione delle grotte con snorkeling' : '濱海波利尼亞諾：生態遊船之旅連浮潛及洞穴探索'}
+                    </h4>
                   </a>
                   
-                  {/* Rec Item 2 */}
-                  <a href="https://www.trip.com/t/xcWHkMbFEU2" target="_blank" rel="noopener noreferrer" className="group flex gap-4 items-center">
-                    <img src="https://ak-d.tripcdn.com/images/010181200085s001402EB_W_800_0_R5_Q90.jpg" alt="Museum" className="w-20 h-20 rounded-lg object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity" />
-                    <div>
-                      <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1">
-                        {isEnglish ? 'Polignano a Mare Boat Tour (Max 10 People)' : isFrench ? 'Tour en bateau à Polignano a Mare (Max 10 Personnes)' : isItalian ? 'Tour in barca a Polignano a Mare (Max 10 Persone)' : '波利尼亞諾遊船之旅 (最多 10 人)'}
-                      </h4>
-                      <p className="text-xs text-slate-500 line-clamp-2">
-                        {isEnglish ? 'Enjoy a relaxing boat tour discovering the breathtaking coastline and crystal clear waters.' : isFrench ? 'Profitez d\'une excursion relaxante en bateau pour découvrir la côte à couper le souffle.' : isItalian ? "Goditi un rilassante tour in barca alla scoperta della costa mozzafiato." : '享受輕鬆的遊船之旅，探索令人驚嘆的海岸線。'}
-                      </p>
-                    </div>
+                  <a href="https://www.trip.com/t/Su71LWvEEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'Polignano a Mare: Boat Tour with Aperitif' : isFrench ? 'Polignano a Mare : Tour en bateau avec apéritif' : isItalian ? 'Polignano a Mare: Tour in barca con aperitivo' : '濱海波利尼亞諾：遊船之旅連開胃酒'}
+                    </h4>
+                  </a>
+
+                  <a href="https://www.trip.com/t/4K0gR5xEEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'Polignano a Mare: Cave Boat Tour with Aperitif' : isFrench ? 'Polignano a Mare : Tour des grottes en bateau avec apéritif' : isItalian ? 'Polignano a Mare: Tour in barca delle grotte con aperitivo' : '濱海波利尼亞諾：洞穴遊船之旅連開胃酒'}
+                    </h4>
+                  </a>
+
+                  <a href="https://www.trip.com/t/ybtN13CFEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'Polignano a Mare: Cave Boat Tour' : isFrench ? 'Polignano a Mare : Tour des grottes en bateau' : isItalian ? 'Polignano a Mare: Tour in barca delle grotte' : '濱海波利尼亞諾：洞穴遊船之旅'}
+                    </h4>
+                  </a>
+
+                  <a href="https://www.trip.com/t/HrlcDlyEEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'Wooden Gozzo Boat Tour with Aperitif to Polignano Coast' : isFrench ? 'Tour en bateau Gozzo en bois avec apéritif vers la côte de Polignano' : isItalian ? 'Tour in barca Gozzo in legno con aperitivo sulla costa di Polignano' : '木製戈佐船之旅，享用開胃酒前往波利尼亞諾美麗海岸'}
+                    </h4>
+                  </a>
+
+                  <a href="https://www.trip.com/t/lQoBLj1FEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'Polignano Coast & Caves: Boat Tour, Drinks, Swimming & Music' : isFrench ? 'Côte et grottes de Polignano : Tour en bateau, boissons, baignade et musique' : isItalian ? 'Costa e grotte di Polignano: Tour in barca, drink, nuoto e musica' : '波利尼亞諾海岸及洞穴之旅：乘船暢遊、暢飲、游泳、音樂與歡樂時光'}
+                    </h4>
+                  </a>
+                  
+                  <a href="https://www.trip.com/t/rbct9O4FEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'Monopoli: Exclusive Shared Boat Tour' : isFrench ? 'Monopoli : Tour en bateau partagé exclusif' : isItalian ? 'Monopoli: Esclusivo tour in barca condiviso' : '莫諾波利：專享共享船遊'}
+                    </h4>
+                  </a>
+
+                  <a href="https://www.trip.com/t/6hV3TK7FEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'Polignano a Mare: Cruise with Prosecco' : isFrench ? 'Polignano a Mare : Croisière avec Prosecco' : isItalian ? 'Polignano a Mare: Crociera con Prosecco' : '濱海波利尼亞諾：郵輪之旅配普羅賽克氣泡酒'}
+                    </h4>
+                  </a>
+                  
+                  <a href="https://www.trip.com/t/m2FkQnFFEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'From Bari: Boat Tour and Free Time in Polignano a Mare' : isFrench ? 'De Bari : Tour en bateau et temps libre à Polignano a Mare' : isItalian ? 'Da Bari: Tour in barca e tempo libero a Polignano a Mare' : '從巴里出發：乘船遊覽及濱海波利尼亞諾自由活動時間'}
+                    </h4>
+                  </a>
+                  
+                  <a href="https://www.trip.com/t/U97GaWIFEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                    <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
+                      {isEnglish ? 'From Peschici: Round-trip Ferry to Tremiti Islands' : isFrench ? 'De Peschici : Ferry aller-retour pour les îles Tremiti' : isItalian ? 'Da Peschici: Traghetto andata e ritorno per le Isole Tremiti' : '佩斯基奇出發：特雷米蒂群島往返渡輪'}
+                    </h4>
                   </a>
                 </div>
                 <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-700 text-center">

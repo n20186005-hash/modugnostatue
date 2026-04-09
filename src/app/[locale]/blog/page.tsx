@@ -43,6 +43,22 @@ export default async function BlogIndexPage({
       <main className="flex-grow py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           
+          {/* Top Ad: Bari */}
+          <div className="mb-10 w-full flex flex-col items-center overflow-hidden">
+            <span className="text-[10px] text-slate-400 uppercase tracking-widest mb-2">Advertisement</span>
+            <div className="w-full max-w-[728px] overflow-x-auto flex justify-center">
+              <div style={{ minWidth: '728px', height: '90px' }}>
+                <iframe
+                  src="https://www.trip.com/partners/ad/SB15306342?Allianceid=7974128&SID=300882170&trip_sub1=%E5%B7%B4%E9%87%8C%E5%BB%A3%E5%9F%9F%E5%B8%82"
+                  style={{ width: '728px', height: '90px', border: 'none' }}
+                  scrolling="no"
+                  id="SB15306342"
+                  title="Trip.com Ad Bari"
+                />
+              </div>
+            </div>
+          </div>
+
           {/* Blog Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
@@ -96,6 +112,22 @@ export default async function BlogIndexPage({
               </div>
             </Link>
 
+          </div>
+
+          {/* Bottom Ad: Polignano */}
+          <div className="mt-16 w-full flex flex-col items-center overflow-hidden">
+            <span className="text-[10px] text-slate-400 uppercase tracking-widest mb-2">Advertisement</span>
+            <div className="w-full max-w-[728px] overflow-x-auto flex justify-center">
+              <div style={{ minWidth: '728px', height: '90px' }}>
+                <iframe
+                  src="https://www.trip.com/partners/ad/SB15306370?Allianceid=7974128&SID=300882170&trip_sub1=%E6%BF%B1%E6%B5%B7%E6%B3%A2%E5%88%A9%E5%B0%BC%E4%BA%9E%E8%AB%BE"
+                  style={{ width: '728px', height: '90px', border: 'none' }}
+                  scrolling="no"
+                  id="SB15306370"
+                  title="Trip.com Ad Polignano"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </main>
