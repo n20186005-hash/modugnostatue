@@ -46,10 +46,11 @@ export default function Footer() {
         </div>
 
         <div
-          className="pt-6 text-center text-sm"
+          className="pt-6 text-center text-sm space-y-4"
           style={{ borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)' }}
         >
           <p>{t('rights')}</p>
+          <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
         </div>
       </div>
     </footer>
