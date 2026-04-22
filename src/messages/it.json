@@ -139,11 +139,11 @@
     "openMaps": "Vedi su Google Maps"
   },
   "footer": {
-    "rights": "© 2026 Comune di Polignano a Mare · Tutti i diritti riservati. Ultimo aggiornamento: Marzo 2026",
+    "rights": "© 2026 Associazione per la Ricerca sul Viaggio Indipendente di Polignano a Mare · Tutti i diritti riservati. Ultimo aggiornamento: Marzo 2026",
     "privacy": "Privacy Policy",
     "terms": "Termini di Servizio",
     "cookies": "Impostazioni Cookie",
-    "officialResourcesTitle": "Risorse e Informazioni Ufficiali",
+    "officialResourcesTitle": "Risorse Correlate e Informazioni",
     "officialLinks": {
       "comune": "Comune di Polignano a Mare",
       "puglia": "Puglia Promozione",
@@ -156,12 +156,12 @@
     "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
     "sections": [
       {
-        "heading": "Piattaforma Ufficiale",
-        "content": "Questo sito web è la piattaforma informativa ufficiale del Comune di Polignano a Mare."
+        "heading": "Associazione per la Ricerca sul Viaggio Indipendente di Polignano a Mare",
+        "content": "Questo sito web è la piattaforma informativa dell'Associazione per la Ricerca sul Viaggio Indipendente di Polignano a Mare. Le informazioni provengono da risorse pubbliche tra cui Google Maps, enti turistici locali e Wikipedia. Le immagini provengono da Unsplash. Non siamo affiliati al Monumento a Domenico Modugno, all'amministrazione comunale o ad altre istituzioni ufficiali."
       },
       {
         "heading": "Raccolta delle Informazioni",
-        "content": "Come piattaforma di servizio pubblico, ci impegniamo a proteggere la tua privacy in conformità con il GDPR e le normative italiane sulla protezione dei dati. Generalmente non raccogliamo attivamente informazioni di identificazione personale. Attraverso i log del server e gli strumenti di analisi, potremmo raccogliere informazioni non identificative come tipo di browser, tempi di accesso e record di visualizzazione delle pagine."
+        "content": "In qualità di Associazione per la Ricerca sul Viaggio Indipendente di Polignano a Mare, ci impegniamo a proteggere la tua privacy in conformità con il GDPR e le normative italiane sulla protezione dei dati. Generalmente non raccogliamo attivamente informazioni di identificazione personale. Attraverso i log del server e gli strumenti di analisi, potremmo raccogliere informazioni non identificative come tipo di browser, tempi di accesso e record di visualizzazione delle pagine."
       },
       {
         "heading": "Uso dei Cookie",
@@ -182,12 +182,12 @@
     "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
     "sections": [
       {
-        "heading": "Piattaforma Ufficiale",
-        "content": "Questo sito web è la piattaforma informativa ufficiale del Comune di Polignano a Mare."
+        "heading": "Associazione per la Ricerca sul Viaggio Indipendente di Polignano a Mare",
+        "content": "Questo sito web è la piattaforma informativa dell'Associazione per la Ricerca sul Viaggio Indipendente di Polignano a Mare. Le informazioni provengono da risorse pubbliche tra cui Google Maps, enti turistici locali e Wikipedia. Le immagini provengono da Unsplash. Non siamo affiliati al Monumento a Domenico Modugno, all'amministrazione comunale o ad altre istituzioni ufficiali."
       },
       {
         "heading": "Accettazione dei Termini",
-        "content": "Accedendo e utilizzando questo sito web, accetti di essere vincolato da questi termini di servizio, che regolano questa piattaforma di servizio pubblico."
+        "content": "Accedendo e utilizzando questo sito web, accetti di essere vincolato da questi termini di servizio."
       },
       {
         "heading": "Uso dei Contenuti",
@@ -223,8 +223,8 @@
     "saved": "Preferenze salvate!"
   },
   "officialManagement": {
-    "title": "Gestione Ufficiale",
-    "text": "Il Monumento a Domenico Modugno è gestito e curato direttamente dal Comune di Polignano a Mare. Quale patrimonio culturale pubblico di Polignano a Mare, questo monumento rappresenta un omaggio permanente al celebre artista locale Domenico Modugno, costituendo un importante punto di riferimento dell'arte pubblica per il turismo."
+    "title": "Informazioni su questo Progetto",
+    "text": "Questo sito web è un progetto indipendente di informazioni turistiche di terze parti. Le informazioni provengono da risorse pubbliche tra cui Google Maps, enti turistici locali e Wikipedia. Le immagini provengono da Unsplash. Non siamo affiliati al Monumento a Domenico Modugno, all'amministrazione comunale o ad altre istituzioni ufficiali."
   },
   "recommendations": {
     "title": "Scopri di Più",

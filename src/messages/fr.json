@@ -139,11 +139,11 @@
     "openMaps": "Voir sur Google Maps"
   },
   "footer": {
-    "rights": "© 2026 Comune di Polignano a Mare · Tous droits réservés. Dernière mise à jour : Mars 2026",
+    "rights": "© 2026 Association de Recherche sur le Voyage Indépendant de Polignano a Mare · Tous droits réservés. Dernière mise à jour : Mars 2026",
     "privacy": "Politique de Confidentialité",
     "terms": "Conditions d'Utilisation",
     "cookies": "Paramètres des Cookies",
-    "officialResourcesTitle": "Ressources et Informations Officielles",
+    "officialResourcesTitle": "Ressources Connexes et Informations",
     "officialLinks": {
       "comune": "Comune di Polignano a Mare",
       "puglia": "Puglia Promozione",
@@ -156,12 +156,12 @@
     "lastUpdated": "Dernière mise à jour : Mars 2026",
     "sections": [
       {
-        "heading": "Plateforme Officielle",
-        "content": "Ce site web est la plateforme d'information officielle de la Comune di Polignano a Mare."
+        "heading": "Association de Recherche sur le Voyage Indépendant de Polignano a Mare",
+        "content": "Ce site Web est la plateforme d'information de l'Association de Recherche sur le Voyage Indépendant de Polignano a Mare. Les informations proviennent de ressources publiques, notamment Google Maps, les offices de tourisme locaux et Wikipédia. Les images proviennent d'Unsplash. Nous ne sommes pas affiliés au Monumento a Domenico Modugno, au gouvernement municipal ou à toute autre institution officielle."
       },
       {
         "heading": "Collecte d'Informations",
-        "content": "En tant que plateforme de service public, nous nous engageons à protéger votre vie privée conformément au RGPD et aux réglementations italiennes sur la protection des données. Nous ne collectons généralement pas activement d'informations personnellement identifiables. Grâce aux journaux de serveur et aux outils d'analyse, nous pouvons collecter des informations non personnellement identifiables telles que le type de navigateur, les heures d'accès et les enregistrements de pages vues."
+        "content": "En tant qu'Association de Recherche sur le Voyage Indépendant de Polignano a Mare, nous nous engageons à protéger votre vie privée conformément au RGPD et aux réglementations italiennes sur la protection des données. Nous ne collectons généralement pas activement d'informations personnellement identifiables. Grâce aux journaux de serveur et aux outils d'analyse, nous pouvons collecter des informations non personnellement identifiables telles que le type de navigateur, les heures d'accès et les enregistrements de pages vues."
       },
       {
         "heading": "Utilisation des Cookies",
@@ -182,12 +182,12 @@
     "lastUpdated": "Dernière mise à jour : Mars 2026",
     "sections": [
       {
-        "heading": "Plateforme Officielle",
-        "content": "Ce site web est la plateforme d'information officielle de la Comune di Polignano a Mare."
+        "heading": "Association de Recherche sur le Voyage Indépendant de Polignano a Mare",
+        "content": "Ce site Web est la plateforme d'information de l'Association de Recherche sur le Voyage Indépendant de Polignano a Mare. Les informations proviennent de ressources publiques, notamment Google Maps, les offices de tourisme locaux et Wikipédia. Les images proviennent d'Unsplash. Nous ne sommes pas affiliés au Monumento a Domenico Modugno, au gouvernement municipal ou à toute autre institution officielle."
       },
       {
         "heading": "Acceptation des Conditions",
-        "content": "En accédant et en utilisant ce site web, vous acceptez d'être lié par ces conditions de service, qui régissent cette plateforme de service public."
+        "content": "En accédant et en utilisant ce site web, vous acceptez d'être lié par ces conditions de service."
       },
       {
         "heading": "Utilisation du Contenu",
@@ -223,8 +223,8 @@
     "saved": "Préférences enregistrées !"
   },
   "officialManagement": {
-    "title": "Gestion Officielle",
-    "text": "Le Monumento a Domenico Modugno est directement géré et entretenu par la Comune di Polignano a Mare. En tant que patrimoine culturel public de Polignano a Mare, ce monument est un hommage permanent au célèbre artiste local Domenico Modugno et constitue un repère important de l'art public pour le tourisme."
+    "title": "À Propos de ce Projet",
+    "text": "Ce site Web est un projet indépendant d'informations touristiques tiers. Les informations proviennent de ressources publiques, notamment Google Maps, les offices de tourisme locaux et Wikipédia. Les images proviennent d'Unsplash. Nous ne sommes pas affiliés au Monumento a Domenico Modugno, au gouvernement municipal ou à toute autre institution officielle."
   },
   "recommendations": {
     "title": "Découvrir Plus",

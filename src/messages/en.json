@@ -139,11 +139,11 @@
     "openMaps": "View on Google Maps"
   },
   "footer": {
-    "rights": "© 2026 Comune di Polignano a Mare · All rights reserved. Last updated: March 2026",
+    "rights": "© 2026 Polignano a Mare Independent Travel Research Association · All rights reserved. Last updated: March 2026",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
-    "officialResourcesTitle": "Official Resources & Information",
+    "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
       "comune": "Comune di Polignano a Mare",
       "puglia": "Puglia Promozione",
@@ -156,12 +156,12 @@
     "lastUpdated": "Last updated: March 2026",
     "sections": [
       {
-        "heading": "Official Platform",
-        "content": "This website is the official information platform of the Comune di Polignano a Mare."
+        "heading": "Polignano a Mare Independent Travel Research Association",
+        "content": "This website is the information platform of the Polignano a Mare Independent Travel Research Association. Information is sourced from public resources including Google Maps, local tourism boards, and Wikipedia. Images are from Unsplash. We are not affiliated with the Monumento a Domenico Modugno, the municipal government, or any other official institutions."
       },
       {
         "heading": "Information Collection",
-        "content": "As a public service platform, we are committed to protecting your privacy in compliance with GDPR and Italian data protection regulations. We generally do not actively collect personally identifiable information from users. Through server logs and analytics tools, we may collect non-personally identifiable information such as browser type, access times, and page view records."
+        "content": "As the Polignano a Mare Independent Travel Research Association, we are committed to protecting your privacy in compliance with GDPR and Italian data protection regulations. We generally do not actively collect personally identifiable information from users. Through server logs and analytics tools, we may collect non-personally identifiable information such as browser type, access times, and page view records."
       },
       {
         "heading": "Use of Cookies",
@@ -182,12 +182,12 @@
     "lastUpdated": "Last updated: March 2026",
     "sections": [
       {
-        "heading": "Official Platform",
-        "content": "This website is the official information platform of the Comune di Polignano a Mare."
+        "heading": "Polignano a Mare Independent Travel Research Association",
+        "content": "This website is the information platform of the Polignano a Mare Independent Travel Research Association. Information is sourced from public resources including Google Maps, local tourism boards, and Wikipedia. Images are from Unsplash. We are not affiliated with the Monumento a Domenico Modugno, the municipal government, or any other official institutions."
       },
       {
         "heading": "Acceptance of Terms",
-        "content": "By accessing and using this website, you agree to be bound by these terms of service, which govern this public service platform."
+        "content": "By accessing and using this website, you agree to be bound by these terms of service."
       },
       {
         "heading": "Use of Content",
@@ -223,8 +223,8 @@
     "saved": "Preferences saved!"
   },
   "officialManagement": {
-    "title": "Official Management",
-    "text": "The Monumento a Domenico Modugno is directly managed and maintained by the Comune di Polignano a Mare. As a public cultural heritage of Polignano a Mare, this monument is a permanent tribute to the famous local artist Domenico Modugno, and serves as an important public art landmark for tourism."
+    "title": "About This Project",
+    "text": "This website is an independent third-party tourist information project. Information is sourced from public resources including Google Maps, local tourism boards, and Wikipedia. Images are from Unsplash. We are not affiliated with the Monumento a Domenico Modugno, the municipal government, or any other official institutions."
   },
   "recommendations": {
     "title": "Discover More",

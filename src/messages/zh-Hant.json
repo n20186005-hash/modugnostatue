@@ -139,11 +139,11 @@
     "openMaps": "在 Google Maps 中查看"
   },
   "footer": {
-    "rights": "© 2026 Polignano a Mare 市鎮政府 · 版權所有。最後更新：2026年3月",
+    "rights": "© 2026 Polignano a Mare 自助旅行研究協會 · 版權所有。最後更新：2026年3月",
     "privacy": "隱私權政策",
     "terms": "服務條款",
     "cookies": "Cookie 設定",
-    "officialResourcesTitle": "官方資源與更多資訊",
+    "officialResourcesTitle": "相關資源與更多資訊",
     "officialLinks": {
       "comune": "Polignano a Mare 市鎮官方旅遊網站 (Comune di Polignano a Mare)",
       "puglia": "普利亞大區官方旅遊網站 (Puglia Promozione)",
@@ -156,12 +156,12 @@
     "lastUpdated": "最後更新：2026年3月",
     "sections": [
       {
-        "heading": "官方資訊平台",
-        "content": "本網站是 Polignano a Mare 市鎮政府的官方資訊平台。"
+        "heading": "Polignano a Mare 自助旅行研究協會",
+        "content": "本網站是 Polignano a Mare 自助旅行研究協會資訊平台。資訊來源於包括 Google Maps、當地旅遊局和維基百科在內的公共資源。圖片來自 Unsplash。我們與 Monumento a Domenico Modugno、市政府或其他官方機構沒有任何關聯。"
       },
       {
         "heading": "資訊收集",
-        "content": "作為公共服務平台，我們承諾遵守 GDPR 及義大利資料保護法規以保護您的隱私。我們通常不會主動收集使用者的個人識別資訊。透過伺服器日誌和分析工具，我們可能會收集非個人識別資訊，如瀏覽器類型、存取時間和頁面瀏覽記錄。"
+        "content": "作為 Polignano a Mare 自助旅行研究協會，我們承諾遵守 GDPR 及義大利資料保護法規以保護您的隱私。我們通常不會主動收集使用者的個人識別資訊。透過伺服器日誌和分析工具，我們可能會收集非個人識別資訊，如瀏覽器類型、存取時間和頁面瀏覽記錄。"
       },
       {
         "heading": "Cookie 的使用",
@@ -182,12 +182,12 @@
     "lastUpdated": "最後更新：2026年3月",
     "sections": [
       {
-        "heading": "官方資訊平台",
-        "content": "本網站是 Polignano a Mare 市鎮政府的官方資訊平台。"
+        "heading": "Polignano a Mare 自助旅行研究協會",
+        "content": "本網站是 Polignano a Mare 自助旅行研究協會資訊平台。資訊來源於包括 Google Maps、當地旅遊局和維基百科在內的公共資源。圖片來自 Unsplash。我們與 Monumento a Domenico Modugno、市政府或其他官方機構沒有任何關聯。"
       },
       {
         "heading": "接受條款",
-        "content": "透過存取和使用本網站，您同意受這些服務條款的約束，這些條款規範了本公共服務平台。"
+        "content": "透過存取和使用本網站，您同意受這些服務條款的約束。"
       },
       {
         "heading": "內容使用",
@@ -223,8 +223,8 @@
     "saved": "偏好設定已儲存！"
   },
   "officialManagement": {
-    "title": "官方管理資訊",
-    "text": "Monumento a Domenico Modugno 由 Polignano a Mare 市鎮政府（Comune di Polignano a Mare）直接管理和維護。作為 Polignano a Mare 的公共文化遺產，該紀念碑是獻給本地著名藝術家 Domenico Modugno 的永久致敬，也是當地重要的旅遊公共藝術地標。"
+    "title": "關於本專案",
+    "text": "本網站是一個獨立的第三方旅遊資訊項目。資訊來源於包括 Google Maps、當地旅遊局和維基百科在內的公共資源。圖片來自 Unsplash。我們與 Monumento a Domenico Modugno、市政府或其他官方機構沒有任何關聯。"
   },
   "recommendations": {
     "title": "探索更多",
