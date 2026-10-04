@@ -8,8 +8,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://modugnostatue.com';
-  const localePrefix = locale === 'it' ? '' : locale === 'en' ? '/en' : locale === 'fr' ? '/fr' : '/zh-Hant';
+  const baseUrl = 'https://www.modugnostatue.com';
   const itUrl = `${baseUrl}/privacy-policy`;
   const enUrl = `${baseUrl}/en/privacy-policy`;
   const frUrl = `${baseUrl}/fr/privacy-policy`;

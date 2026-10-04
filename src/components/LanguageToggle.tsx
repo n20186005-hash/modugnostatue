@@ -12,6 +12,23 @@ const labels: Record<string, string> = {
   'zh-Hant': '繁體中文',
 };
 
+const localizedPathMap: Record<string, Partial<Record<Locale, string>>> = {
+  '/cosa-vedere-polignano-a-mare': {
+    it: '/cosa-vedere-polignano-a-mare',
+    en: '/things-to-do-in-polignano-a-mare',
+  },
+  '/things-to-do-in-polignano-a-mare': {
+    it: '/cosa-vedere-polignano-a-mare',
+    en: '/things-to-do-in-polignano-a-mare',
+  },
+  '/polignano-a-mare-in-un-giorno': {
+    it: '/polignano-a-mare-in-un-giorno',
+    en: '/blog/one-day-tour-guide',
+    fr: '/blog/one-day-tour-guide',
+    'zh-Hant': '/blog/one-day-tour-guide',
+  },
+};
+
 export default function LanguageToggle() {
   const locale = useLocale();
   const router = useRouter();
@@ -44,8 +61,19 @@ export default function LanguageToggle() {
     
     // Construct new path
     const pathWithoutLocale = segments.length > 0 ? `/${segments.join('/')}` : '/';
+    const localizedPath = localizedPathMap[pathWithoutLocale]?.[next];
     
     // Navigate
+    if (localizedPath) {
+      router.push(`/${next}${localizedPath === '/' ? '' : localizedPath}`);
+      return;
+    }
+
+    if (localizedPathMap[pathWithoutLocale]) {
+      router.push(`/${next}`);
+      return;
+    }
+
     if (next === routing.defaultLocale) {
       router.push(pathWithoutLocale);
     } else {

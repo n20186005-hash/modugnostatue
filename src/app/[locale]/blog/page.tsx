@@ -61,6 +61,55 @@ export default async function BlogIndexPage({
 
           {/* Blog Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            {(isItalian || isEnglish) && (
+              <Link
+                href={isItalian ? '/it/cosa-vedere-polignano-a-mare' : '/en/things-to-do-in-polignano-a-mare'}
+                className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-700 flex flex-col h-full cursor-pointer"
+              >
+                <div className="p-6 flex flex-col flex-grow">
+                  <div className="mb-4 inline-block bg-slate-100 dark:bg-slate-700 text-[#1e3a54] dark:text-[#f0b429] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider self-start">
+                    {isItalian ? 'Destinazione' : 'Destination'}
+                  </div>
+                  <h3 className="font-display text-xl font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-[#f0b429] transition-colors line-clamp-2">
+                    {isItalian ? 'Cosa vedere a Polignano a Mare' : 'Things to Do in Polignano a Mare'}
+                  </h3>
+                  <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-6 line-clamp-3 flex-grow">
+                    {isItalian
+                      ? 'Una guida pratica ai luoghi essenziali tra statua di Modugno, centro storico, Lama Monachile e lungomare.'
+                      : 'A focused guide to the main sights in town, built around the Domenico Modugno Statue and the coast.'}
+                  </p>
+                  <div className="flex items-center justify-between mt-auto pt-4 border-t border-slate-100 dark:border-slate-700 text-xs text-slate-500 dark:text-slate-400">
+                    <span className="flex items-center gap-1">{isItalian ? 'Ottobre 2026' : 'October 2026'}</span>
+                    <span className="flex items-center gap-1">7 min read</span>
+                  </div>
+                </div>
+              </Link>
+            )}
+
+            {isItalian && (
+              <Link
+                href="/it/polignano-a-mare-in-un-giorno"
+                className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-700 flex flex-col h-full cursor-pointer"
+              >
+                <div className="p-6 flex flex-col flex-grow">
+                  <div className="mb-4 inline-block bg-slate-100 dark:bg-slate-700 text-[#1e3a54] dark:text-[#f0b429] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider self-start">
+                    Itinerario
+                  </div>
+                  <h3 className="font-display text-xl font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-[#f0b429] transition-colors line-clamp-2">
+                    Polignano a Mare in un giorno
+                  </h3>
+                  <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-6 line-clamp-3 flex-grow">
+                    Un itinerario pratico per vedere Polignano in una sola giornata senza uscire
+                    dal nucleo piu forte della destinazione.
+                  </p>
+                  <div className="flex items-center justify-between mt-auto pt-4 border-t border-slate-100 dark:border-slate-700 text-xs text-slate-500 dark:text-slate-400">
+                    <span className="flex items-center gap-1">Ottobre 2026</span>
+                    <span className="flex items-center gap-1">6 min read</span>
+                  </div>
+                </div>
+              </Link>
+            )}
             
             {/* Article 1: One Day Tour */}
             <Link href={`/${locale}/blog/one-day-tour-guide`} className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-700 flex flex-col h-full cursor-pointer">

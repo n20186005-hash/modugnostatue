@@ -15,7 +15,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const messages = (await import(`@/messages/${locale}.json`)).default;
-  const baseUrl = 'https://modugnostatue.com';
+  const baseUrl = 'https://www.modugnostatue.com';
 
   const itUrl = `${baseUrl}/`;
   const enUrl = `${baseUrl}/en`;

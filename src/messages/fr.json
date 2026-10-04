@@ -13,8 +13,8 @@
   "hero": {
     "title": "Statue Domenico Modugno",
     "subtitle": "Le point de vue le plus emblématique de Polignano a Mare",
-    "rating": "4,8/5",
-    "reviewCount": "11 183 avis",
+    "rating": "4,6/5",
+    "reviewCount": "11 879 avis",
     "hours": "Ouvert 24h/24",
     "openMaps": "Voir l'Emplacement"
   },
@@ -232,20 +232,20 @@
     "toursTitle": "Visites et Activités Recommandées",
     "attractions": [
       {
-        "name": "Musée du Trésor de San Gennaro",
-        "url": "https://www.trip.com/t/xcWHkMbFEU2"
+        "name": "Centro Storico di Polignano a Mare",
+        "url": "https://www.google.com/maps/search/?api=1&query=Centro+Storico+di+Polignano+a+Mare"
       },
       {
-        "name": "Jago Museum",
-        "url": "https://www.trip.com/t/JQ84T0dFEU2"
+        "name": "Lama Monachile",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lama+Monachile+Polignano+a+Mare"
       },
       {
-        "name": "Aquarium de Naples",
-        "url": "https://www.trip.com/t/KMsEPTeFEU2"
+        "name": "Belvédère sur Lama Monachile",
+        "url": "https://www.google.com/maps/search/?api=1&query=Belvedere+su+Lama+Monachile"
       },
       {
-        "name": "San Lorenzo Maggiore",
-        "url": "https://www.trip.com/t/DwQCUJfFEU2"
+        "name": "Abbaye de San Vito",
+        "url": "https://www.google.com/maps/search/?api=1&query=Abbazia+di+San+Vito+Polignano+a+Mare"
       }
     ],
     "tours": [
@@ -286,8 +286,8 @@
         "url": "https://www.trip.com/t/m2FkQnFFEU2"
       },
       {
-        "name": "De Peschici : Ferry Aller-Retour pour les Îles Tremiti",
-        "url": "https://www.trip.com/t/U97GaWIFEU2"
+        "name": "Guide d'une journée à Polignano a Mare",
+        "url": "/fr/blog/one-day-tour-guide"
       }
     ]
   }

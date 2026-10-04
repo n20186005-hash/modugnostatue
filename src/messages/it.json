@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Monumento a Domenico Modugno | Polignano a Mare",
-    "description": "Guida completa al Monumento a Domenico Modugno a Polignano a Mare, Puglia. Orari, come arrivare, foto e recensioni."
+    "title": "Statua di Domenico Modugno a Polignano a Mare | Monumento & Volare",
+    "description": "Visita la Statua di Domenico Modugno a Polignano a Mare: dove si trova, accesso gratuito, storia del monumento, foto, Volare e cosa vedere nei dintorni."
   },
   "header": {
     "home": "Home",
@@ -11,16 +11,16 @@
     "backToHome": "Torna alla Home"
   },
   "hero": {
-    "title": "Monumento a Domenico Modugno",
-    "subtitle": "Il punto panoramico più iconico di Polignano a Mare",
-    "rating": "4.8/5",
-    "reviewCount": "11.183 recensioni",
+    "title": "Statua di Domenico Modugno a Polignano a Mare",
+    "subtitle": "Il monumento simbolo di Polignano a Mare dedicato a Domenico Modugno e a Volare",
+    "rating": "4.6/5",
+    "reviewCount": "11.879 recensioni",
     "hours": "Aperto 24h/24",
     "openMaps": "Vedi Posizione"
   },
   "intro": {
-    "title": "Scopri il Monumento",
-    "description": "Situato sul lungomare di Polignano a Mare, questo monumento in bronzo rende omaggio a Domenico Modugno — il leggendario cantautore italiano che ha incantato il mondo con 'Volare' (Nel blu dipinto di blu). I visitatori sono invitati a visitare questo monumento pubblico e a percepire il profondo legame emotivo tra Domenico Modugno e la sua città natale.",
+    "title": "Visita la Statua di Domenico Modugno",
+    "description": "La Statua di Domenico Modugno, conosciuta anche come Monumento a Domenico Modugno, Statua di Modugno o statua simbolo di Polignano a Mare, si trova sul Lungomare Domenico Modugno. Questo celebre monumento dedicato all'autore di Volare è gratuito, sempre accessibile e perfetto per ammirare il mare, il centro storico e alcuni dei panorami più iconici della Puglia.",
     "visitGuide": {
       "title": "Guida alla Visita",
       "items": [
@@ -33,25 +33,26 @@
     "alsoKnownAs": {
       "title": "Conosciuto Anche Come",
       "items": [
+        "Statua di Domenico Modugno",
         "Monumento a Domenico Modugno",
-        "Modugno Statue",
-        "The Volare Statue",
-        "Scultura iconica del lungomare di Polignano a Mare"
+        "Statua di Modugno",
+        "Statua di Polignano a Mare",
+        "Volare statue"
       ]
     }
   },
   "knowledge": {
-    "title": "Esplora il punto di riferimento culturale di Polignano",
+    "title": "Scopri la statua, la storia di Volare e Polignano a Mare",
     "sections": [
       {
         "id": "monumento",
-        "title": "Monumento a Domenico Modugno",
-        "content": "Gestito dal Comune di Polignano a Mare, questo monumento in bronzo è un omaggio permanente al grande artista Domenico Modugno. Creato dallo scultore Hermann Mejer e inaugurato il 31 maggio 2009, questo monumento in bronzo è più di una semplice opera d'arte; è un omaggio della gente del posto a un grande artista. Alta circa 3 metri, la statua cattura vividamente un momento dell'appassionata esibizione sul palco di Domenico Modugno."
+        "title": "Statua di Domenico Modugno",
+        "content": "La Statua di Domenico Modugno è uno dei monumenti più fotografati di Polignano a Mare. Collocata sul lungomare e inaugurata nel 2009, celebra il legame tra il celebre cantante pugliese e la sua città natale. Con le braccia aperte verso il mare, il monumento riassume perfettamente l'energia di Volare e il carattere panoramico del luogo."
       },
       {
         "id": "statue",
-        "title": "Modugno Statue & The Volare Statue",
-        "content": "Tra i turisti internazionali, è spesso chiamata 'Modugno Statue' o 'The Volare Statue'. Rivolta verso il mare con le braccia spalancate, la statua simboleggia un abbraccio al mondo e il desiderio di volare liberamente, illustrando perfettamente l'atmosfera della canzone che ha fatto impazzire il mondo."
+        "title": "Monumento a Domenico Modugno e Volare",
+        "content": "Molti viaggiatori la cercano come Statua di Modugno, Monumento a Domenico Modugno o Volare statue. Il gesto delle braccia spalancate, rivolte verso l'Adriatico, richiama immediatamente Nel blu, dipinto di blu e rende questo punto uno dei luoghi più rappresentativi da vedere a Polignano a Mare."
       },
       {
         "id": "polignano",
@@ -232,20 +233,20 @@
     "toursTitle": "Tour e Attività Consigliati",
     "attractions": [
       {
-        "name": "Museo del Tesoro di San Gennaro",
-        "url": "https://www.trip.com/t/xcWHkMbFEU2"
+        "name": "Centro Storico di Polignano a Mare",
+        "url": "https://www.google.com/maps/search/?api=1&query=Centro+Storico+di+Polignano+a+Mare"
       },
       {
-        "name": "Jago Museum",
-        "url": "https://www.trip.com/t/JQ84T0dFEU2"
+        "name": "Lama Monachile",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lama+Monachile+Polignano+a+Mare"
       },
       {
-        "name": "Acquario di Napoli",
-        "url": "https://www.trip.com/t/KMsEPTeFEU2"
+        "name": "Belvedere su Lama Monachile",
+        "url": "https://www.google.com/maps/search/?api=1&query=Belvedere+su+Lama+Monachile"
       },
       {
-        "name": "San Lorenzo Maggiore",
-        "url": "https://www.trip.com/t/DwQCUJfFEU2"
+        "name": "Abbazia di San Vito",
+        "url": "https://www.google.com/maps/search/?api=1&query=Abbazia+di+San+Vito+Polignano+a+Mare"
       }
     ],
     "tours": [
@@ -286,8 +287,8 @@
         "url": "https://www.trip.com/t/m2FkQnFFEU2"
       },
       {
-        "name": "Da Peschici: Traghetto A/R per le Isole Tremiti",
-        "url": "https://www.trip.com/t/U97GaWIFEU2"
+        "name": "Cosa vedere a Polignano a Mare",
+        "url": "/it/cosa-vedere-polignano-a-mare"
       }
     ]
   }

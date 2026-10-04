@@ -13,8 +13,8 @@
   "hero": {
     "title": "Monumento a Domenico Modugno",
     "subtitle": "波利尼亞諾濱海最具標誌性的觀景點",
-    "rating": "4.8/5",
-    "reviewCount": "11,183 則評價",
+    "rating": "4.6/5",
+    "reviewCount": "11,879 則評價",
     "hours": "全天候開放",
     "openMaps": "查看位置"
   },
@@ -232,20 +232,20 @@
     "toursTitle": "周邊遊路線推薦",
     "attractions": [
       {
-        "name": "聖熱內羅珍寶博物館",
-        "url": "https://www.trip.com/t/xcWHkMbFEU2"
+        "name": "Polignano a Mare 老城",
+        "url": "https://www.google.com/maps/search/?api=1&query=Centro+Storico+di+Polignano+a+Mare"
       },
       {
-        "name": "Jago Museum",
-        "url": "https://www.trip.com/t/JQ84T0dFEU2"
+        "name": "Lama Monachile 海灣",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lama+Monachile+Polignano+a+Mare"
       },
       {
-        "name": "Aquarium of Naples",
-        "url": "https://www.trip.com/t/KMsEPTeFEU2"
+        "name": "Lama Monachile 觀景台",
+        "url": "https://www.google.com/maps/search/?api=1&query=Belvedere+su+Lama+Monachile"
       },
       {
-        "name": "大聖老楞佐教堂",
-        "url": "https://www.trip.com/t/DwQCUJfFEU2"
+        "name": "聖維托修道院",
+        "url": "https://www.google.com/maps/search/?api=1&query=Abbazia+di+San+Vito+Polignano+a+Mare"
       }
     ],
     "tours": [
@@ -286,8 +286,8 @@
         "url": "https://www.trip.com/t/m2FkQnFFEU2"
       },
       {
-        "name": "佩斯基奇出發：特雷米蒂群島往返渡輪",
-        "url": "https://www.trip.com/t/U97GaWIFEU2"
+        "name": "Polignano a Mare 一日深度遊攻略",
+        "url": "/zh-Hant/blog/one-day-tour-guide"
       }
     ]
   }

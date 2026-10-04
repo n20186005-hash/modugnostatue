@@ -28,8 +28,8 @@ export default async function BlogPostDomenicoModugno({
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 bg-[#1e3a54]">
           <img
-            src="https://images.unsplash.com/photo-1555554162-88b9015c7b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
-            alt="Polignano a Mare Monumento a Domenico Modugno"
+            src="/gallery/statua-domenico-modugno-seafront-view.jpg"
+            alt="Monumento a Domenico Modugno a Polignano a Mare vista sul mare"
             className="w-full h-full object-cover opacity-50 mix-blend-multiply"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#1e3a54] via-transparent to-transparent opacity-80" />
@@ -328,17 +328,17 @@ export default async function BlogPostDomenicoModugno({
                   {isEnglish ? 'Nearby Attractions' : isFrench ? 'Attractions à proximité' : isItalian ? 'Attrazioni nelle vicinanze' : '周邊景點推薦'}
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  <a href="https://www.trip.com/t/xcWHkMbFEU2" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
-                    {isEnglish ? 'Museum of the Treasure of San Gennaro' : isFrench ? 'Musée du Trésor de San Gennaro' : isItalian ? 'Museo del Tesoro di San Gennaro' : '聖熱內羅珍寶博物館'}
+                  <a href="https://www.google.com/maps/search/?api=1&query=Centro+Storico+di+Polignano+a+Mare" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
+                    {isEnglish ? 'Centro Storico di Polignano a Mare' : isFrench ? 'Centro Storico di Polignano a Mare' : isItalian ? 'Centro Storico di Polignano a Mare' : 'Polignano a Mare 老城'}
                   </a>
-                  <a href="https://www.trip.com/t/JQ84T0dFEU2" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
-                    Jago Museum
+                  <a href="https://www.google.com/maps/search/?api=1&query=Lama+Monachile+Polignano+a+Mare" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
+                    Lama Monachile
                   </a>
-                  <a href="https://www.trip.com/t/KMsEPTeFEU2" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
-                    Aquarium of Naples
+                  <a href="https://www.google.com/maps/search/?api=1&query=Belvedere+su+Lama+Monachile" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
+                    {isEnglish ? 'Belvedere su Lama Monachile' : isFrench ? 'Belvédère sur Lama Monachile' : isItalian ? 'Belvedere su Lama Monachile' : 'Lama Monachile 觀景台'}
                   </a>
-                  <a href="https://www.trip.com/t/DwQCUJfFEU2" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
-                    {isEnglish ? 'San Lorenzo Maggiore' : isFrench ? 'San Lorenzo Maggiore' : isItalian ? 'San Lorenzo Maggiore' : '大聖老楞佐教堂'}
+                  <a href="https://www.google.com/maps/search/?api=1&query=Abbazia+di+San+Vito+Polignano+a+Mare" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-[#f0b429] hover:border-[#f0b429] dark:hover:text-[#f0b429] dark:hover:border-[#f0b429] text-xs rounded-md transition-colors">
+                    {isEnglish ? 'Abbey of San Vito' : isFrench ? 'Abbaye de San Vito' : isItalian ? 'Abbazia di San Vito' : '聖維托修道院'}
                   </a>
                 </div>
               </div>
@@ -441,9 +441,9 @@ export default async function BlogPostDomenicoModugno({
                     </h4>
                   </a>
                   
-                  <a href="https://www.trip.com/t/U97GaWIFEU2" target="_blank" rel="noopener noreferrer" className="block group">
+                  <a href={isEnglish ? '/en/things-to-do-in-polignano-a-mare' : isFrench ? '/fr/blog/one-day-tour-guide' : isItalian ? '/it/polignano-a-mare-in-un-giorno' : '/zh-Hant/blog/one-day-tour-guide'} className="block group">
                     <h4 className="font-semibold text-sm group-hover:text-[#f0b429] transition-colors leading-tight mb-1 text-slate-800 dark:text-slate-200">
-                      {isEnglish ? 'From Peschici: Round-trip Ferry to Tremiti Islands' : isFrench ? 'De Peschici : Ferry aller-retour pour les îles Tremiti' : isItalian ? 'Da Peschici: Traghetto andata e ritorno per le Isole Tremiti' : '佩斯基奇出發：特雷米蒂群島往返渡輪'}
+                      {isEnglish ? 'What to See in Polignano a Mare' : isFrench ? 'Guide d’une journée à Polignano a Mare' : isItalian ? 'Polignano a Mare in un giorno' : 'Polignano a Mare 一日深度遊攻略'}
                     </h4>
                   </a>
                 </div>

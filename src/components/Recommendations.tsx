@@ -1,4 +1,40 @@
 import { useTranslations, useMessages } from 'next-intl';
+import Link from 'next/link';
+
+function RecommendationLink({ name, url }: { name: string; url: string }) {
+  const isInternal = url.startsWith('/');
+
+  const content = (
+    <>
+      <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />
+      <span className="group-hover:underline underline-offset-4 decoration-blue-300 leading-snug">{name}</span>
+    </>
+  );
+
+  if (isInternal) {
+    return (
+      <Link
+        href={url}
+        className="group flex items-start gap-3 hover:text-blue-600 transition-colors"
+        style={{ color: 'var(--text-secondary)' }}
+      >
+        {content}
+      </Link>
+    );
+  }
+
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group flex items-start gap-3 hover:text-blue-600 transition-colors"
+      style={{ color: 'var(--text-secondary)' }}
+    >
+      {content}
+    </a>
+  );
+}
 
 export default function Recommendations() {
   const t = useTranslations('recommendations');
@@ -27,16 +63,7 @@ export default function Recommendations() {
             <ul className="space-y-3">
               {attractions.map((item, i) => (
                 <li key={i}>
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group flex items-start gap-3 hover:text-blue-600 transition-colors"
-                    style={{ color: 'var(--text-secondary)' }}
-                  >
-                    <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />
-                    <span className="group-hover:underline underline-offset-4 decoration-blue-300">{item.name}</span>
-                  </a>
+                  <RecommendationLink name={item.name} url={item.url} />
                 </li>
               ))}
             </ul>
@@ -54,16 +81,7 @@ export default function Recommendations() {
             <ul className="space-y-3">
               {tours.map((item, i) => (
                 <li key={i}>
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group flex items-start gap-3 hover:text-blue-600 transition-colors"
-                    style={{ color: 'var(--text-secondary)' }}
-                  >
-                    <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />
-                    <span className="group-hover:underline underline-offset-4 decoration-blue-300 leading-snug">{item.name}</span>
-                  </a>
+                  <RecommendationLink name={item.name} url={item.url} />
                 </li>
               ))}
             </ul>

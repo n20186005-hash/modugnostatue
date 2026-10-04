@@ -4,20 +4,46 @@ import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
 
 const photos = [
-  { src: '/gallery/images (1).jpg', alt: 'Lama Monachile beach' },
-  { src: '/gallery/images (2).jpg', alt: 'Coastal view' },
-  { src: '/gallery/images (3).jpg', alt: 'Historic center' },
-  { src: '/gallery/images (4).jpg', alt: 'Sea cliffs' },
-  { src: '/gallery/images (5).jpg', alt: 'Panoramic sunset' },
-  { src: '/gallery/images (6).jpg', alt: 'Harbor' },
-  { src: '/gallery/images (7).jpg', alt: 'Coastal architecture' },
-  { src: '/gallery/images (8).jpg', alt: 'Rock formations' },
-  { src: '/gallery/images (9).jpg', alt: 'Beach access' },
-  { src: '/gallery/images (10).jpg', alt: 'Aerial view' },
-  { src: '/gallery/images (11).jpg', alt: 'Evening lights' },
-  { src: '/gallery/images (12).jpg', alt: 'Coastal path' },
-  { src: '/gallery/images (13).jpg', alt: 'Statue at sunset' },
-  { src: '/gallery/images (14).jpg', alt: 'Panoramic cliffs' },
+  {
+    src: '/gallery/statua-domenico-modugno-seafront-view.jpg',
+    alt: 'Statua di Domenico Modugno a Polignano a Mare con il mare Adriatico sullo sfondo',
+  },
+  {
+    src: '/gallery/statua-domenico-modugno-front-view.jpg',
+    alt: 'Domenico Modugno Statue front view in Polignano a Mare',
+  },
+  {
+    src: '/gallery/polignano-a-mare-cliff-sea-view.jpg',
+    alt: 'Polignano a Mare cliffside sea view near Lama Monachile',
+  },
+  {
+    src: '/gallery/polignano-a-mare-old-town-sea-view.jpg',
+    alt: 'Polignano a Mare old town sea view from the cliffs',
+  },
+  {
+    src: '/gallery/lama-monachile-cliff-view.jpg',
+    alt: 'Lama Monachile cliff view in Polignano a Mare',
+  },
+  {
+    src: '/gallery/lama-monachile-beach-panorama.jpg',
+    alt: 'Lama Monachile beach panorama in Polignano a Mare',
+  },
+  {
+    src: '/gallery/polignano-a-mare-historic-street.jpg',
+    alt: 'Historic street in Polignano a Mare old town',
+  },
+  {
+    src: '/gallery/ponte-lama-monachile-polignano-a-mare.jpg',
+    alt: 'Ponte Lama Monachile in Polignano a Mare',
+  },
+  {
+    src: '/gallery/volare-oh-oh-sign-polignano-a-mare.jpg',
+    alt: 'Volare oh oh sign in Polignano a Mare old town',
+  },
+  {
+    src: '/gallery/porta-grande-polignano-a-mare.jpg',
+    alt: 'Porta Grande entrance in Polignano a Mare',
+  },
 ];
 
 export default function Gallery() {

@@ -1,19 +1,55 @@
 import React from 'react';
-import { useLocale, useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 import Link from 'next/link';
 
 export default function BlogSection() {
   const locale = useLocale();
-  const t = useTranslations('blog'); // Assuming we might want to add translations to messages later, or we can hardcode for now based on locale
 
   const isEnglish = locale === 'en';
   const isFrench = locale === 'fr';
   const isItalian = locale === 'it';
-  const isChinese = locale === 'zh' || locale === 'zh-Hant';
-
   const posts = [
+    ...(isItalian
+      ? [
+          {
+            id: 'cosa-vedere-polignano-a-mare',
+            href: '/it/cosa-vedere-polignano-a-mare',
+            title: 'Cosa vedere a Polignano a Mare',
+            excerpt:
+              'La guida pratica ai luoghi essenziali da vedere tra statua di Modugno, centro storico, Lama Monachile e lungomare.',
+            category: 'Destinazione',
+            date: 'Ottobre 2026',
+            readTime: '7 min read',
+          },
+          {
+            id: 'polignano-a-mare-in-un-giorno',
+            href: '/it/polignano-a-mare-in-un-giorno',
+            title: 'Polignano a Mare in un giorno',
+            excerpt:
+              'Un itinerario semplice per visitare Polignano in una giornata tra statua di Modugno, Lama Monachile e centro storico.',
+            category: 'Itinerario',
+            date: 'Ottobre 2026',
+            readTime: '6 min read',
+          },
+        ]
+      : []),
+    ...(isEnglish
+      ? [
+          {
+            id: 'things-to-do-in-polignano-a-mare',
+            href: '/en/things-to-do-in-polignano-a-mare',
+            title: 'Things to Do in Polignano a Mare',
+            excerpt:
+              'A focused guide to the best viewpoints, old town walks, beach stops and the Domenico Modugno Statue.',
+            category: 'Destination',
+            date: 'October 2026',
+            readTime: '7 min read',
+          },
+        ]
+      : []),
     {
       id: 'one-day-tour-guide',
+      href: `/${locale}/blog/one-day-tour-guide`,
       title: isEnglish 
         ? 'Polignano a Mare, Italy｜In-depth One-Day Tour Guide' 
         : isFrench 
@@ -31,10 +67,10 @@ export default function BlogSection() {
       category: isEnglish ? 'Travel Guide' : isFrench ? 'Guide' : isItalian ? 'Guida' : '旅遊指南',
       date: isEnglish ? 'April 2026' : isFrench ? 'Avril 2026' : isItalian ? 'Aprile 2026' : '2026 年 4 月',
       readTime: '8 min read',
-      image: 'https://images.unsplash.com/photo-1516483638261-f40af5ff1f25?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
       id: 'monumento-a-domenico-modugno',
+      href: `/${locale}/blog/monumento-a-domenico-modugno`,
       title: isEnglish 
         ? 'The Story Behind Monumento a Domenico Modugno' 
         : isFrench 
@@ -52,7 +88,6 @@ export default function BlogSection() {
       category: isEnglish ? 'Culture' : isFrench ? 'Culture' : isItalian ? 'Cultura' : '文化與歷史',
       date: isEnglish ? 'April 2026' : isFrench ? 'Avril 2026' : isItalian ? 'Aprile 2026' : '2026 年 4 月',
       readTime: '6 min read',
-      image: 'https://images.unsplash.com/photo-1692345576261-12c8b0567fce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     }
   ];
 
@@ -68,7 +103,7 @@ export default function BlogSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {posts.map((post) => (
-            <Link href={`/${locale}/blog/${post.id}`} key={post.id} className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-700 flex flex-col h-full">
+            <Link href={post.href} key={post.id} className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-700 flex flex-col h-full">
               {/* Content */}
               <div className="p-6 flex flex-col flex-grow">
                 <div className="mb-4 inline-block bg-slate-100 dark:bg-slate-700 text-[#1e3a54] dark:text-[#f0b429] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider self-start">
