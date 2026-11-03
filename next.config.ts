@@ -9,22 +9,6 @@ const nextConfig = {
       { protocol: 'https' as const, hostname: 'images.unsplash.com' },
     ],
   },
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'header',
-            key: 'host',
-            value: 'modugnostatue.com',
-          },
-        ],
-        destination: 'https://www.modugnostatue.com/:path*',
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default withNextIntl(nextConfig);
