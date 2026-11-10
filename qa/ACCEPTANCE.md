@@ -46,3 +46,6 @@ The repair keeps production autoconfiguration and commands unchanged. Isolated, 
 Next 15.5.28 is pinned to satisfy OpenNext's published peer requirement without force or legacy-peer overrides. TypeScript, Next/OpenNext build, 29 local production HTTP checks, 24 original image hashes, JavaScript syntax, whitespace checks, and clean npm 10.9.10 installs pass. Root and preview lockfiles are npm-10 compatible.
 
 The local workerd runtime could not start because the sandbox reports `uv_interface_addresses` system error. This is not a successful runtime test. The actual remote Preview URL must pass before merge. Desktop/mobile visual checks remain outstanding until a reachable browser preview exists.
+
+## Runtime cache-miss correction
+Remote preview e143036 built and deployed, but direct locale-prefixed attraction URLs returned 404 while Italian rewritten routes worked. The OpenNext dummy cache returns no entry; Next interprets dynamicParams=false as a hard 404 on that miss. Attraction routes now allow on-demand rendering, while getAttraction still explicitly rejects unknown languages and slugs. All 16 pages remain prerendered, and the manifest fallback changes from false to null. Next/OpenNext build, TypeScript, and all 29 local HTTP cases (including invalid paths) passed again. Remote runtime checks are required before merge.

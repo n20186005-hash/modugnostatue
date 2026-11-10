@@ -10,7 +10,10 @@ import { guideLabels } from '@/data/attraction-labels';
 import styles from './page.module.css';
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
-export const dynamicParams = false;
+// OpenNext can miss prerender cache entries for direct locale-prefixed URLs.
+// Allow rendering valid content on a cache miss; getAttraction still rejects
+// every unknown locale or slug with notFound().
+export const dynamicParams = true;
 export function generateStaticParams() {
   return routing.locales.flatMap(locale => attractionSlugs.map(slug => ({locale, slug})));
 }
