@@ -1,0 +1,268 @@
+{
+  "status": "passed",
+  "pages": [
+    {
+      "path": "/attractions/pino-pascali",
+      "status": 200,
+      "h1": "Fondazione Pino Pascali",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/attractions/cala-paura",
+      "status": 200,
+      "h1": "Cala Paura",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/attractions/arco-marchesale",
+      "status": 200,
+      "h1": "Arco Marchesale · Porta Grande",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/attractions/santa-maria-assunta",
+      "status": 200,
+      "h1": "Chiesa Matrice di Santa Maria Assunta",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/en/attractions/pino-pascali",
+      "status": 200,
+      "h1": "Fondazione Pino Pascali",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/en/attractions/cala-paura",
+      "status": 200,
+      "h1": "Cala Paura",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/en/attractions/arco-marchesale",
+      "status": 200,
+      "h1": "Arco Marchesale · Porta Grande",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/en/attractions/santa-maria-assunta",
+      "status": 200,
+      "h1": "Chiesa Matrice di Santa Maria Assunta",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/fr/attractions/pino-pascali",
+      "status": 200,
+      "h1": "Fondation Pino Pascali",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/fr/attractions/cala-paura",
+      "status": 200,
+      "h1": "Cala Paura",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/fr/attractions/arco-marchesale",
+      "status": 200,
+      "h1": "Arco Marchesale · Porta Grande",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/fr/attractions/santa-maria-assunta",
+      "status": 200,
+      "h1": "Église Santa Maria Assunta",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/zh-Hant/attractions/pino-pascali",
+      "status": 200,
+      "h1": "Pino Pascali 美術館",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/zh-Hant/attractions/cala-paura",
+      "status": 200,
+      "h1": "Cala Paura 海灣",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/zh-Hant/attractions/arco-marchesale",
+      "status": 200,
+      "h1": "Arco Marchesale 歷史城門",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/zh-Hant/attractions/santa-maria-assunta",
+      "status": 200,
+      "h1": "Santa Maria Assunta 教堂",
+      "checks": "lang, canonical, 5 hreflang, ordered sections, 3 related links, image, JSON-LD"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "checks": "existing homepage plus four new guide links"
+    },
+    {
+      "path": "/en",
+      "status": 200,
+      "checks": "existing homepage plus four new guide links"
+    },
+    {
+      "path": "/fr",
+      "status": 200,
+      "checks": "existing homepage plus four new guide links"
+    },
+    {
+      "path": "/zh-Hant",
+      "status": 200,
+      "checks": "existing homepage plus four new guide links"
+    },
+    {
+      "path": "/it/attractions/pino-pascali",
+      "status": 200,
+      "redirects": [
+        307
+      ],
+      "final": "/attractions/pino-pascali"
+    },
+    {
+      "path": "/en/attractions/cala-paura/",
+      "status": 200,
+      "redirects": [
+        308
+      ],
+      "final": "/en/attractions/cala-paura"
+    },
+    {
+      "check": "French cookie to explicit Italian route",
+      "status": "passed",
+      "final": "/attractions/pino-pascali",
+      "cookie": "it"
+    },
+    {
+      "check": "apex redirect preserves path and query",
+      "status": 308,
+      "location": "https://www.modugnostatue.com/en/attractions/cala-paura?source=qa"
+    },
+    {
+      "check": "www forwarded host",
+      "status": 200
+    },
+    {
+      "path": "/en/attractions/not-an-attraction",
+      "status": 404
+    },
+    {
+      "path": "/de/attractions/pino-pascali",
+      "status": 404
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "self_canonical_urls": 20
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    }
+  ],
+  "original_images_preserved": [
+    {
+      "path": "public/gallery/images (1).jpg",
+      "git_blob": "31a3decd1a57a31dfd93b33748d57533c1e4f0e5"
+    },
+    {
+      "path": "public/gallery/images (10).jpg",
+      "git_blob": "13405d6abe2d11eed0b3fe66b00df61e86a36d04"
+    },
+    {
+      "path": "public/gallery/images (11).jpg",
+      "git_blob": "950896e9068a6cfc9dec8a6a2c1b22950f819a88"
+    },
+    {
+      "path": "public/gallery/images (12).jpg",
+      "git_blob": "f49b1c43c7fc0beb8f7ed0d9d77bab2f3796b83a"
+    },
+    {
+      "path": "public/gallery/images (13).jpg",
+      "git_blob": "5807e34a44e520f977c9809708aa2ba09c3c510e"
+    },
+    {
+      "path": "public/gallery/images (14).jpg",
+      "git_blob": "5f78da4a66e3f2ad62684d49f17e1e974d924e8f"
+    },
+    {
+      "path": "public/gallery/images (2).jpg",
+      "git_blob": "48171224076c3821f693e9f2afda82718696d013"
+    },
+    {
+      "path": "public/gallery/images (3).jpg",
+      "git_blob": "7760b41e8945f1721fcc553784b119605cb048bd"
+    },
+    {
+      "path": "public/gallery/images (4).jpg",
+      "git_blob": "78cb00e26867a09f6a82487c8b2584e5a1d1f098"
+    },
+    {
+      "path": "public/gallery/images (5).jpg",
+      "git_blob": "b65ab648c1399ec38a9dc8239c82973e58e84ed7"
+    },
+    {
+      "path": "public/gallery/images (6).jpg",
+      "git_blob": "623ab9f82f0207bab84ffba3786a554485e0f605"
+    },
+    {
+      "path": "public/gallery/images (7).jpg",
+      "git_blob": "2b57230a42e0ac6553c5c62ed538b06b89b0c0d8"
+    },
+    {
+      "path": "public/gallery/images (8).jpg",
+      "git_blob": "64bf0093f4195e01b67c4299920ce367408aa7dd"
+    },
+    {
+      "path": "public/gallery/images (9).jpg",
+      "git_blob": "98ea8760f022e9ccbff7ba5225597bb1f48dc5e1"
+    },
+    {
+      "path": "public/gallery/lama-monachile-beach-panorama.jpg",
+      "git_blob": "f49b1c43c7fc0beb8f7ed0d9d77bab2f3796b83a"
+    },
+    {
+      "path": "public/gallery/lama-monachile-cliff-view.jpg",
+      "git_blob": "950896e9068a6cfc9dec8a6a2c1b22950f819a88"
+    },
+    {
+      "path": "public/gallery/polignano-a-mare-cliff-sea-view.jpg",
+      "git_blob": "5f78da4a66e3f2ad62684d49f17e1e974d924e8f"
+    },
+    {
+      "path": "public/gallery/polignano-a-mare-historic-street.jpg",
+      "git_blob": "2b57230a42e0ac6553c5c62ed538b06b89b0c0d8"
+    },
+    {
+      "path": "public/gallery/polignano-a-mare-old-town-sea-view.jpg",
+      "git_blob": "31a3decd1a57a31dfd93b33748d57533c1e4f0e5"
+    },
+    {
+      "path": "public/gallery/ponte-lama-monachile-polignano-a-mare.jpg",
+      "git_blob": "13405d6abe2d11eed0b3fe66b00df61e86a36d04"
+    },
+    {
+      "path": "public/gallery/porta-grande-polignano-a-mare.jpg",
+      "git_blob": "98ea8760f022e9ccbff7ba5225597bb1f48dc5e1"
+    },
+    {
+      "path": "public/gallery/statua-domenico-modugno-front-view.jpg",
+      "git_blob": "b65ab648c1399ec38a9dc8239c82973e58e84ed7"
+    },
+    {
+      "path": "public/gallery/statua-domenico-modugno-seafront-view.jpg",
+      "git_blob": "5807e34a44e520f977c9809708aa2ba09c3c510e"
+    },
+    {
+      "path": "public/gallery/volare-oh-oh-sign-polignano-a-mare.jpg",
+      "git_blob": "64bf0093f4195e01b67c4299920ce367408aa7dd"
+    }
+  ],
+  "browser_interaction": "not covered by this script"
+}

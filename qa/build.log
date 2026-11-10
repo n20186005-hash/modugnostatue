@@ -1,0 +1,90 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> modugnostatue@1.0.0 build
+> next build
+
+   ▲ Next.js 15.5.14
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 2.7s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/62) ...
+   Generating static pages (15/62) 
+   Generating static pages (30/62) 
+   Generating static pages (46/62) 
+ ✓ Generating static pages (62/62)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                          Size  First Load JS
+┌ ○ /                                               131 B         102 kB
+├ ○ /_not-found                                     995 B         103 kB
+├ ● /[locale]                                     3.49 kB         121 kB
+├   ├ /it
+├   ├ /en
+├   ├ /fr
+├   └ /zh-Hant
+├ ● /[locale]/attractions/[slug]                  2.73 kB         121 kB
+├   ├ /it/attractions/pino-pascali
+├   ├ /it/attractions/cala-paura
+├   ├ /it/attractions/arco-marchesale
+├   └ [+13 more paths]
+├ ● /[locale]/blog                                2.26 kB         120 kB
+├   ├ /it/blog
+├   ├ /en/blog
+├   ├ /fr/blog
+├   └ /zh-Hant/blog
+├ ● /[locale]/blog/monumento-a-domenico-modugno   2.45 kB         117 kB
+├   ├ /it/blog/monumento-a-domenico-modugno
+├   ├ /en/blog/monumento-a-domenico-modugno
+├   ├ /fr/blog/monumento-a-domenico-modugno
+├   └ /zh-Hant/blog/monumento-a-domenico-modugno
+├ ● /[locale]/blog/one-day-tour-guide             2.45 kB         117 kB
+├   ├ /it/blog/one-day-tour-guide
+├   ├ /en/blog/one-day-tour-guide
+├   ├ /fr/blog/one-day-tour-guide
+├   └ /zh-Hant/blog/one-day-tour-guide
+├ ● /[locale]/cookie-settings                     1.36 kB         116 kB
+├   ├ /it/cookie-settings
+├   ├ /en/cookie-settings
+├   ├ /fr/cookie-settings
+├   └ /zh-Hant/cookie-settings
+├ ● /[locale]/cosa-vedere-polignano-a-mare        2.45 kB         117 kB
+├   ├ /it/cosa-vedere-polignano-a-mare
+├   ├ /en/cosa-vedere-polignano-a-mare
+├   ├ /fr/cosa-vedere-polignano-a-mare
+├   └ /zh-Hant/cosa-vedere-polignano-a-mare
+├ ● /[locale]/polignano-a-mare-in-un-giorno       2.45 kB         117 kB
+├   ├ /it/polignano-a-mare-in-un-giorno
+├   ├ /en/polignano-a-mare-in-un-giorno
+├   ├ /fr/polignano-a-mare-in-un-giorno
+├   └ /zh-Hant/polignano-a-mare-in-un-giorno
+├ ● /[locale]/privacy-policy                        279 B         115 kB
+├   ├ /it/privacy-policy
+├   ├ /en/privacy-policy
+├   ├ /fr/privacy-policy
+├   └ /zh-Hant/privacy-policy
+├ ● /[locale]/terms-of-service                      279 B         115 kB
+├   ├ /it/terms-of-service
+├   ├ /en/terms-of-service
+├   ├ /fr/terms-of-service
+├   └ /zh-Hant/terms-of-service
+├ ● /[locale]/things-to-do-in-polignano-a-mare    2.45 kB         117 kB
+├   ├ /it/things-to-do-in-polignano-a-mare
+├   ├ /en/things-to-do-in-polignano-a-mare
+├   ├ /fr/things-to-do-in-polignano-a-mare
+├   └ /zh-Hant/things-to-do-in-polignano-a-mare
+├ ○ /robots.txt                                     131 B         102 kB
+└ ○ /sitemap.xml                                    131 B         102 kB
++ First Load JS shared by all                      102 kB
+  ├ chunks/255-38b49df12a94ee57.js                  46 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js           54.2 kB
+  └ other shared chunks (total)                   1.93 kB
+
+
+ƒ Middleware                                        46 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
