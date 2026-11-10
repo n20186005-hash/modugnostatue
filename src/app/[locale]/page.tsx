@@ -8,6 +8,7 @@ import BlogSection from '@/components/BlogSection';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import Recommendations from '@/components/Recommendations';
+import NearbyAttractions from '@/components/NearbyAttractions';
 import Footer from '@/components/Footer';
 
 export default async function HomePage({
@@ -27,6 +28,7 @@ export default async function HomePage({
         <InfoSection />
         <Gallery />
         <BlogSection />
+        <NearbyAttractions />
         <Recommendations />
         <Reviews />
         <MapEmbed />

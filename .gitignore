@@ -33,3 +33,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+qa/static-visual-*.html
+qa/*server.log
+qa/qa-deps.log
+
+# Isolated Cloudflare preview tooling and generated output
+.cloudflare/preview/node_modules/
+.open-next/
+.wrangler/
