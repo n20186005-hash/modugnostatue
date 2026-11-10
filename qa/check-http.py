@@ -1,10 +1,10 @@
-import json,subprocess,time
+import json,subprocess,time,os
 from pathlib import Path
 from urllib.parse import urlparse,quote
 import requests
 from bs4 import BeautifulSoup
 
-base='http://127.0.0.1:3184'
+base=os.environ.get('MODUGNO_BASE_URL','http://127.0.0.1:3184').rstrip('/')
 site='https://www.modugnostatue.com'
 root=Path(__file__).resolve().parent.parent
 slugs=['pino-pascali','cala-paura','arco-marchesale','santa-maria-assunta']
@@ -74,5 +74,5 @@ for line in original.splitlines():
  actual=subprocess.check_output(['git','hash-object',name],cwd=root,text=True).strip()
  check(actual==sha,'image changed '+name);images.append({'path':name,'git_blob':sha})
 report={'status':'passed','pages':results,'original_images_preserved':images,'browser_interaction':'not covered by this script'}
-(root/'qa/http-results.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+(root/os.environ.get('MODUGNO_REPORT_PATH','qa/http-results.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'status':'passed','checks':len(results),'original_images_unchanged':len(images)},indent=2))
